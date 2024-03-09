@@ -1,0 +1,59 @@
+/* Định nghĩa font-face */
+@font-face {
+    font-family: 'Mulish-ExtraBold';
+    src: url("/Fonts/Mulish-ExtraBold.ttf");
+}
+
+/* Áp dụng chữ giãn rộng cho các phần tử */
+.shadow-effect {
+    filter: drop-shadow(3px 3px 3px rgba(0, 0, 0, 0.25));
+    letter-spacing: 1px; /* Chữ giãn rộng 1px */
+}
+
+.header {
+    height: 11.5vh;
+    background-color: rgba(255, 255, 255, 1);
+    letter-spacing: 1px; /* Chữ giãn rộng 1px */
+}
+
+.header-mobile {
+    height: 9vh;
+    background-color: white;
+    position: sticky !important;
+    top: 0;
+    z-index: 1020;
+    letter-spacing: 1px; /* Chữ giãn rộng 1px */
+}
+
+.header-content {
+    margin-left: 14vw;
+    margin-right: 9.11vw;
+    height: 100%;
+    letter-spacing: 1px; /* Chữ giãn rộng 1px */
+}
+
+.header-list {
+    right: 0;
+    width: 100%;
+    color: #105181;
+    font-family: 'Montserrat-ExtraBold';
+    letter-spacing: 1px; /* Chữ giãn rộng 1px */
+}
+
+.btn-contact {
+    background-color: #25AAE2;
+    border: hidden;
+    border-radius: 3px;
+    color: white;
+    font-family: 'Montserrat-ExtraBold';
+    font-size: 15px;
+    letter-spacing: 1px; /* Chữ giãn rộng 1px */
+}
+
+.btn-transparent {
+    background-color: transparent;
+    border: hidden;
+    font-family: 'Montserrat-ExtraBold';
+    font-size: 12px;
+    letter-spacing: 1px; /* Chữ giãn rộng 1px */
+}
