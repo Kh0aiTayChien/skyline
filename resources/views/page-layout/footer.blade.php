@@ -76,16 +76,17 @@
             <div class="col-md-5 col-xs-12"><img src="{{asset('images/footer/LOGO.png')}}" alt="" class="img-fluid"></div>
             <div class="col-md-6 offset-1">
                 <div class="montserrat-bold text-white d-none d-md-block mb-4" style="font-size: 1.5vw; letter-spacing: 0.35rem; width: 90%">
-                    CÔNG TY TNHH SKYLIGHT
+                    Công ty TNHH Kỹ thuật và
+                    Thương mại Thành Nam
                 </div>
                 <div class="montserrat-bold text-white d-none d-md-block" style="font-size: 1.09vw; width: 90%">
-                   ĐỊA CHỈ
+                    Địa chỉ: Số 15 Sunrise H The Manor Central Park
                 </div>
                 <div class="montserrat-bold text-white d-none d-md-block" style="font-size: 1.09vw; width: 90%">
-                    HOT LINE
+                    Nguyễn Xiển, Đại Kim, Hoàng Mai, Hà Nội
                 </div>
                 <div class="montserrat-bold text-white d-none d-md-block" style="font-size: 1.09vw; width: 90%">
-                    EMAIL
+                    Hotline: 0901739995 - 0931189996
                 </div>
             </div>
         </div>

@@ -1,4 +1,4 @@
-<div class="header shadow-effect sticky-top d-none d-md-block montserrat-extrabold">
+<div class="header shadow-effect sticky-top d-none d-md-block montserrat-extrabold ">
     <div class="header-content d-flex align-content-center " style="overflow: hidden">
         <a href="/" style="">
             <img class="header-logo" src="{{asset('images/header/LOGO.png')}}" alt="LOGO">
@@ -14,6 +14,11 @@
                 <button class="btn-contact px-4 py-2">LIÊN HỆ</button>
             </div>
         </div>
+    </div>
+    <div class="position-absolute shake" style="right: 2%; margin-top: 80vh">
+        <a href="tel:0931 189 996">
+            <img src="{{asset('images/header/phone.png')}}" alt="" style="">
+        </a>
     </div>
 </div>
 <div class="header-mobile shadow-effect sticky-top d-md-none position-relative">
@@ -69,12 +74,15 @@
 <div class="menu-dropdown blue-bg d-none">
     <div class="mobile-menu">
         <div class="text-center">TRANG CHỦ</div>
-        <div class="text-center mt-4">GIỚI THIỆU</div>
-        <div class="text-center mt-4">VỀ THẦY NINO</div>
-        <div class="text-center mt-4">CÁC KHÓA HỌC</div>
-        <div class="text-center mt-4">KIẾN THỨC</div>
+{{--        <div class="text-center mt-4">GIỚI THIỆU</div>--}}
+{{--        <div class="text-center mt-4">VỀ THẦY NINO</div>--}}
+{{--        <div class="text-center mt-4">CÁC KHÓA HỌC</div>--}}
+{{--        <div class="text-center mt-4">KIẾN THỨC</div>--}}
         <div class="text-center mt-4">
-            <button class="btn-contact px-5 py-1">LIÊN HỆ</button>
+{{--            <button class="btn-contact px-5 py-1">LIÊN HỆ</button>--}}
+            <a href="tel:0931 189 996">
+                <img src="{{asset('images/header/phone.png')}}" alt="" style="">
+            </a>
         </div>
     </div>
 
@@ -85,7 +93,7 @@
         height: 100vh;
         padding-top: 10rem;
         color: white;
-        font-family: 'Mulish-Black';
+        font-family: 'Montserrat-Bold';
     }
 
     .menu-dropdown {
@@ -111,4 +119,30 @@
         });
     });
 </script>
+<style>
+    /* CSS để tạo hiệu ứng rung */
+    .shake {
+        display: inline-block;
+        transition: transform 0.1s ease-in-out; /* Thêm hiệu ứng chuyển đổi */
+    }
+
+    /* Khi di chuột vào, kích hoạt hiệu ứng rung */
+    .shake:hover {
+        transform: translateX(-5px); /* Di chuyển sang trái */
+    }
+
+    /* Animation keyframes để tạo hiệu ứng rung */
+    @keyframes shake {
+        0% { transform: translateX(0); }
+        25% { transform: translateX(-5px); }
+        50% { transform: translateX(5px); }
+        75% { transform: translateX(-3px); }
+        100% { transform: translateX(0); }
+    }
+
+    /* Khi di chuột vào, áp dụng animation */
+    .shake:hover {
+        animation: shake 0.4s ease-in-out; /* Sử dụng animation keyframes */
+    }
+</style>
 
