@@ -4,7 +4,7 @@
             <div class="main-img">
                 <img src="{{$product->image}}" alt="" class="img-fluid w-100 large-image" style="object-fit: cover">
             </div>
-            <div class="row mt-4 product-images">
+            <div class="row mt-4 product-images d-flex flex-wrap" style="overflow-x: auto;">
                 @foreach($mediaProducts as $media)
                     <div class="col-3">
                         <img src="{{$media->url}}" alt="" class="img-fluid small-image"
@@ -103,7 +103,9 @@
     .product-images .small-image {
         cursor: pointer;
     }
-
+    .small-image:hover{
+        border: 1px solid black;
+    }
     .horizontal-line {
         position: relative;
         margin: 20px auto; /* Khoảng cách trên và dưới */

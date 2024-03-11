@@ -37,7 +37,7 @@ class ProductController extends Controller
     public function show($slug)
     {
         $product = Product::where('slug', $slug)->firstOrFail();
-        $mediaProducts = ImageProduct::where('product_id', $product->id)->get();
+        $mediaProducts = ImageProduct::where('product_id', $product->id)->take(3)->get();
 
         return response()->view('pages/chi-tiet-san-pham/index',
             ['product' => $product, 'mediaProducts' => $mediaProducts]);

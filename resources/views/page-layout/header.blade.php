@@ -8,7 +8,7 @@
                 <button class="btn-transparent px-3 py-2">GIỚI THIỆU</button>
             </div>
             <div class="col-2 text-center no-opacity">
-                <button class="btn-transparent px-3 py-2">SẢN PHẨM</button>
+                <a href="/"><button class="btn-transparent px-3 py-2">SẢN PHẨM</button></a>
             </div>
             <div class="col-2 text-center no-opacity">
                 <button class="btn-contact px-4 py-2">LIÊN HỆ</button>
