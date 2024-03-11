@@ -4,13 +4,13 @@
             <img class="header-logo" src="{{asset('images/header/LOGO.png')}}" alt="LOGO">
         </a>
         <div class="header-list d-flex justify-content-end align-content-center row gx-0">
-            <div class="col-3 text-center no-opacity">
+            <div class="col-2 text-center no-opacity">
                 <button class="btn-transparent px-3 py-2">GIỚI THIỆU</button>
             </div>
-            <div class="col-3 text-center no-opacity">
+            <div class="col-2 text-center no-opacity">
                 <button class="btn-transparent px-3 py-2">SẢN PHẨM</button>
             </div>
-            <div class="col-3 text-center no-opacity">
+            <div class="col-2 text-center no-opacity">
                 <button class="btn-contact px-4 py-2">LIÊN HỆ</button>
             </div>
         </div>
@@ -68,12 +68,19 @@
         </svg>
     </div>
     <div class="header-content d-flex justify-content-center align-content-center ">
-        <img class=header-logo src="{{asset('images/header/LOGO.png')}}" alt="LOGO">
+        <img class = "header-logo" src="{{asset('images/header/LOGO.png')}}" alt="LOGO">
     </div>
+    <script>
+        $(document).ready(function(){
+            $(".header-logo").click(function(){
+                window.location.href = "/";
+            });
+        });
+    </script>
 </div>
 <div class="menu-dropdown blue-bg d-none">
     <div class="mobile-menu">
-        <div class="text-center">TRANG CHỦ</div>
+        <div class="text-center header-logo">TRANG CHỦ</div>
 {{--        <div class="text-center mt-4">GIỚI THIỆU</div>--}}
 {{--        <div class="text-center mt-4">VỀ THẦY NINO</div>--}}
 {{--        <div class="text-center mt-4">CÁC KHÓA HỌC</div>--}}

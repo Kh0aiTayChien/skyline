@@ -155,11 +155,11 @@
 }
 
 .custom-prev-arrow-course {
-    left: 10px;
+    left: -4rem;
 }
 
 .custom-next-arrow-course {
-    right: 10px;
+    right: -4rem;
 }
 
 .hall-of-fame .card {
@@ -187,14 +187,14 @@
 .custom-prev-arrow-2,
 .custom-prev-arrow-3
 {
-    left: 10px;
+    left: -4rem;
 }
 
 .custom-next-arrow-1,
 .custom-next-arrow-2,
 .custom-next-arrow-3
 {
-    right: 10px;
+    right: -4rem;
 }
 
 .courses .slick-dots {
@@ -243,6 +243,7 @@
 
 .slick-dots li {
     margin: 0 5px;
+    display: none;
 }
 
 
@@ -275,6 +276,20 @@
     .section-2 {
         padding: 0
     }
+    .custom-prev-arrow-course,
+    .custom-prev-arrow-1,
+    .custom-prev-arrow-2,
+    .custom-prev-arrow-3
+    {
+        left: -1rem;
+    }
+    .custom-next-arrow-course,
+    .custom-next-arrow-1,
+    .custom-next-arrow-2,
+    .custom-next-arrow-3
+    {
+        right: -1rem;
+    }
 
     .sec2-homepage-pc, .sec3-homepage-pc {
         display: none !important;
@@ -303,7 +318,7 @@
         width: 90%;
     }
     .img-course {
-        scale: 70%;
+        scale: 90%;
     }
 
     .custom-prev-arrow-course {

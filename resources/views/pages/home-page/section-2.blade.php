@@ -24,7 +24,7 @@
                  style="font-size: 29px; letter-spacing: 0.35rem; color: #25AAE2">
                 Sản phẩm
             </div>
-            <div class="row gx-0 img-course pt-4 montserrat-bold "
+            <div class="row gx-0 img-course montserrat-bold mt-4 "
                  style="font-size: 25px; letter-spacing: 0.35rem; color: #25AAE2; padding: 0 4%" >
                 <div class="col-lg-4 col-md-12">Đèn Downlight</div>
                 <div class="col-lg-8 col-md-12">
@@ -92,14 +92,14 @@
         </script>
 
 
-        <div class="slick-carousel position-relative mt-4">
+        <div class="slick-carousel position-relative">
             <button class="custom-prev-arrow-1 " aria-label="Previous">
                 <img src="{{asset('images/arrow/left.png')}}" alt="Previous" class="shadow-effect button-shake"/>
             </button>
             <button class="custom-next-arrow-1 " aria-label="Next">
                 <img src="{{asset('images/arrow/right.png')}}" alt="Next" class="shadow-effect button-shake"/>
             </button>
-            <div class="row gx-0 img-course pt-4 montserrat-bold "
+            <div class="row gx-0 img-course montserrat-bold "
                  style="font-size: 25px; letter-spacing: 0.35rem; color: #25AAE2; padding: 0 4%" >
                 <div class="col-lg-4 col-md-12">Đèn Spotlight</div>
                 <div class="col-lg-8 col-md-12">
@@ -166,7 +166,7 @@
             });
         </script>
 
-        <div class="slick-carousel position-relative mt-4">
+        <div class="slick-carousel position-relative ">
             <button class="custom-prev-arrow-2 " aria-label="Previous">
                 <img src="{{asset('images/arrow/left.png')}}" alt="Previous" class="shadow-effect button-shake"/>
             </button>
@@ -240,7 +240,7 @@
             });
         </script>
 
-        <div class="slick-carousel position-relative mt-4">
+        <div class="slick-carousel position-relative ">
             <button class="custom-prev-arrow-3 " aria-label="Previous">
                 <img src="{{asset('images/arrow/left.png')}}" alt="Previous" class="shadow-effect button-shake"/>
             </button>
