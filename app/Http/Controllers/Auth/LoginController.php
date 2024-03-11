@@ -35,13 +35,12 @@ class LoginController extends Controller
      */
     public function __construct()
     {
-//        $this->middleware('guest')->except('logout');
+        $this->middleware('guest')->except('logout');
     }
 
     protected function redirectTo()
     {
-        return route('home');
-//        session()->flash('success', 'You are logged in!');
-//        return $this->redirectTo;
+        session()->flash('success', 'You are logged in!');
+        return $this->redirectTo;
     }
 }

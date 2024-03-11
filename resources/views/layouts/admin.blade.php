@@ -85,7 +85,7 @@
             <div class="sidebar-brand-icon rotate-n-15">
 
             </div>
-            <div class="sidebar-brand-text mx-3">NINO TOEIC <sup><i class="fas fa-laugh-wink"></i></sup></div>
+            <div class="sidebar-brand-text mx-3">SKY LINE<sup><i class="fas fa-laugh-wink"></i></sup></div>
         </a>
 
         <!-- Divider -->
@@ -144,18 +144,18 @@
             <a class="nav-link" data-toggle="collapse" href="#products" role="button" aria-expanded="false"
                aria-controls="products">
                 <i class="fa fa-shopping-bag"></i>
-                <span>Khóa học</span>
+                <span>Sản Phẩm</span>
             </a>
             <div class="collapse" id="products">
                 <ul class="nav flex-column">
                     <li class="nav-item {{ Nav::isRoute('products.create') }}">
                         <a class="nav-link" href="{{ route('products.create') }}">
-                            <span>Khóa học mới</span>
+                            <span>Sản phẩm mới</span>
                         </a>
                     </li>
                     <li class="nav-item {{ Nav::isRoute('products.index') }}">
                         <a class="nav-link" href="{{ route('products.index') }}">
-                            <span>Danh sách khóa học</span>
+                            <span>Danh sách sản phẩm</span>
                         </a>
                     </li>
                 </ul>
@@ -431,13 +431,13 @@
                     <div class="topbar-divider d-none d-sm-block"></div>
 
                     <!-- Nav Item - User Information -->
-                    <li class="nav-item dropdown no-arrow">
-{{--                        <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button"--}}
-{{--                           data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">--}}
-{{--                            <span class="mr-2 d-none d-lg-inline text-gray-600 small">{{ Auth::user()->name }}</span>--}}
-{{--                            <figure class="img-profile rounded-circle avatar font-weight-bold"--}}
-{{--                                    data-initial="{{ Auth::user()->name[0] }}"></figure>--}}
-{{--                        </a>--}}
+                    <li class="nav-item dropdown no-arrow" style="overflow: unset !important">
+                        <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button"
+                           data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <span class="mr-2 d-none d-lg-inline text-gray-600 small">{{ Auth::user()->name }}</span>
+                            <figure class="img-profile rounded-circle avatar font-weight-bold"
+                                    data-initial="{{ Auth::user()->name[0] }}"></figure>
+                        </a>
                         <!-- Dropdown - User Information -->
                         <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in"
                              aria-labelledby="userDropdown">
@@ -482,7 +482,7 @@
             <div class="container my-auto">
                 <div class="copyright text-center my-auto">
                     <span>Copyright &copy; LIME COMPANY {{ now()->year }}--</span>
-                    <span>--Made by LeMinhChien</span>
+                    <span>--Made by LIME DEVELOPER</span>
                 </div>
             </div>
         </footer>
@@ -510,14 +510,14 @@
                 </button>
             </div>
             <div class="modal-body">Select "Logout" below if you are ready to end your current session.</div>
-{{--            <div class="modal-footer">--}}
-{{--                <button class="btn btn-link" type="button" data-dismiss="modal">{{ __('Cancel') }}</button>--}}
-{{--                <a class="btn btn-danger" href="{{ route('logout') }}"--}}
-{{--                   onclick="event.preventDefault(); document.getElementById('logout-form').submit();">{{ __('Logout') }}</a>--}}
-{{--                <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">--}}
-{{--                    @csrf--}}
-{{--                </form>--}}
-{{--            </div>--}}
+            <div class="modal-footer">
+                <button class="btn btn-link" type="button" data-dismiss="modal">{{ __('Cancel') }}</button>
+                <a class="btn btn-danger" href="{{ route('logout') }}"
+                   onclick="event.preventDefault(); document.getElementById('logout-form').submit();">{{ __('Logout') }}</a>
+                <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+                    @csrf
+                </form>
+            </div>
         </div>
     </div>
 </div>
