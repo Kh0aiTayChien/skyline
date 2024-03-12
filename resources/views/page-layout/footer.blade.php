@@ -3,9 +3,9 @@
         <div class="title" style="">
             <div class="row">
                 <div class="col-md-8 col-xs-12">
-                    <div class="montserrat-bold text-white d-none d-md-block" style="font-size: 1.5vw; letter-spacing: 0.35rem; width: 90%">SKY LINE
+                    <div class="montserrat-bold text-white d-none d-md-block" style="font-size: 1.5vw; letter-spacing: 0.35rem; width: 90%">SKYLIGHT
                     </div>
-                    <div class="montserrat-bold text-white d-flex  d-md-none" style="letter-spacing: 0.35rem; font-size: 15px">SKY LINE
+                    <div class="montserrat-bold text-white d-flex  d-md-none" style="letter-spacing: 0.35rem; font-size: 15px">SKYLIGHT
                     </div>
                     <div class="icielbegum text-white mt-3 d-none d-md-block" style="font-size: 2.66vw; width: 90%">
                         ĐĂNG KÍ NHẬN TƯ VẤN
@@ -73,33 +73,53 @@
         <hr class="my-line mt-5 mb-5">
 
         <div class="row mt-5">
-            <div class="col-md-5 col-xs-12"><img src="{{asset('images/footer/LOGO.png')}}" alt="" class="img-fluid"></div>
-            <div class="col-md-6 offset-1">
-                <div class="montserrat-bold text-white d-none d-md-block mb-4" style="font-size: 1.5vw; width: 90%">
+            <div class="col-md-5 col-xs-12"><img src="{{asset('images/footer/LOGO1.png')}}" alt="" class="img-fluid scrollToTop"></div>
+            <div class="col-md-1"></div>
+            <div class="col-md-6  col-xs-12">
+                <div class="montserrat-bold text-white d-none d-md-block mb-4 ms-3" style="font-size: 1.95vw; width: 90%">
                     <div>Công ty TNHH Kỹ thuật và</div>
                     <div>Thương mại Thành Nam</div>
                 </div>
-                <div class="montserrat-bold text-white d-none d-md-block" style="font-size: 1.09vw; width: 90%; letter-spacing: 0.05rem">
+                <div class="montserrat text-white d-none d-md-block ms-3" style="font-size: 1.09vw; width: 90%; letter-spacing: 0.05rem">
                     Địa chỉ: Số 15 Sunrise H The Manor Central Park
                 </div>
-                <div class="montserrat-bold text-white d-none d-md-block" style="font-size: 1.09vw; width: 90%; letter-spacing: 0.05rem">
+                <div class="montserrat text-white d-none d-md-block ms-3" style="font-size: 1.09vw; width: 90%; letter-spacing: 0.05rem">
                     Nguyễn Xiển, Đại Kim, Hoàng Mai, Hà Nội
                 </div>
-                <div class="montserrat-bold text-white d-none d-md-block" style="font-size: 1.09vw; width: 90%; letter-spacing: 0.05rem">
+                <div class="montserrat text-white d-none d-md-block ms-3" style="font-size: 1.09vw; width: 90%; letter-spacing: 0.05rem">
                     Hotline: 0901739995 - 0931189996
                 </div>
+
+{{--                mobile--}}
+                <div class="montserrat-bold text-white d-block d-md-none mb-4 mt-4 text-center" style="font-size: 25px; width: 100%">
+                    <div>Công ty TNHH Kỹ thuật và</div>
+                    <div>Thương mại Thành Nam</div>
+                </div>
+                <div class="montserrat-bold text-white d-block d-md-none text-center" style="font-size: 15px; width: 100%; letter-spacing: 0.05rem">
+                    <strong>Địa chỉ:</strong>
+                </div>
+                <div class="montserrat text-white d-block d-md-none text-center" style="font-size: 15px; width: 100%; letter-spacing: 0.05rem">
+                   Số 15 Sunrise H The Manor Central Park, Nguyễn Xiển, Đại Kim, Hoàng Mai, Hà Nội
+                </div>
+                <div class="montserrat-bold text-white d-block d-md-none text-center" style="font-size: 15px; width: 100%; letter-spacing: 0.05rem">
+                    <strong>Hotline:</strong>
+                </div>
+                <div class="montserrat text-white d-block d-md-none text-center" style="font-size: 15px; width: 100%; letter-spacing: 0.05rem">
+                    0901739995 - 0931189996
+                </div>
+
             </div>
         </div>
 
     </div>
-    <div class="about bg-white text-dark cabin-medium d-none d-md-block" style="font-size: 13px">
-        <div class="content py-2">
-            Bản quyền 2024 © SKY LINE. Đã đăng ký bản quyền.
+    <div class="about bg-white text-dark montserrat-bold d-none d-md-block" style="font-size: 13px">
+        <div class="content py-3" style="color: #25AAE2; height: 100%">
+            Bản quyền 2024 © SKYLIGHT. Đã đăng ký bản quyền.
         </div>
     </div>
-    <div class="about text-dark cabin-medium d-block d-md-none" style="font-size: 13px">
+    <div class=" text-dark montserrat-bold d-block d-md-none" style="font-size: 13px">
         <div class="content py-2 text-center" style="line-height: 1.25; background-color: white;  color: #25AAE2 ">
-            Bản quyền 2024 © SKY LINE.
+            Bản quyền 2024 © SKYLIGHT.
             <br>
             Đã đăng ký bản quyền.
         </div>

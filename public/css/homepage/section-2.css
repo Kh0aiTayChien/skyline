@@ -145,7 +145,7 @@
 .custom-prev-arrow-course,
 .custom-next-arrow-course {
     position: absolute;
-    top: 50%;
+    top: 59%;
     transform: translateY(-50%);
     background: none;
     border: none;
@@ -282,6 +282,7 @@
     .custom-prev-arrow-3
     {
         left: -1rem;
+        opacity: 50%;
     }
     .custom-next-arrow-course,
     .custom-next-arrow-1,
@@ -289,6 +290,7 @@
     .custom-next-arrow-3
     {
         right: -1rem;
+        opacity: 50%;
     }
 
     .sec2-homepage-pc, .sec3-homepage-pc {
@@ -321,21 +323,21 @@
         scale: 90%;
     }
 
-    .custom-prev-arrow-course {
-        left: -17px;
-        position: absolute;
-        top: 40%;
-        scale: 50%;
-        opacity: 50%;
-    }
+    /*.custom-prev-arrow-course {*/
+    /*    left: -17px;*/
+    /*    position: absolute;*/
+    /*    top: 40%;*/
+    /*    scale: 50%;*/
+    /*    opacity: 50%;*/
+    /*}*/
 
-    .custom-next-arrow-course {
-        right: -17px;
-        position: absolute;
-        top: 40%;
-        scale: 50%;
-        opacity: 50%;
-    }
+    /*.custom-next-arrow-course {*/
+    /*    right: -17px;*/
+    /*    position: absolute;*/
+    /*    top: 40%;*/
+    /*    scale: 50%;*/
+    /*    opacity: 50%;*/
+    /*}*/
 
     .height-text-card {
         height: 3.5rem;

@@ -1,23 +1,23 @@
-<div class="section-1 d-flex justify-content-center align-items-center position-relative">
-    <div class="d-flex align-content-center justify-content-center position-absolute"style="z-index: 998; bottom: 26vh">
-        <div class="btn text-white montserrat-extrabold d-none d-md-block" style="font-size: 29px; text-align: justify">
-            <p> Skyline luôn tự hào là một trong những đơn vị đi đầu trong</p>
+<div class="section-1 d-flex justify-content-center align-items-center position-relative ">
+    <div class="d-flex align-content-center justify-content-center position-absolute"style="z-index: 998; bottom: 33vh">
+        <div class="btn text-white montserrat d-none d-md-block text-center" style="font-size: 29px; text-align: justify">
+            <p> Skylight luôn tự hào là một trong những đơn vị đi đầu trong</p>
             <p> lĩnh vực cung cấp giải pháp và thiết bị công nghệ Led chiếu sáng</p>
             <p>thân thiện với môi trường được nhiều đối tác đánh giá cao.</p>
         </div>
-        <div class="btn text-white montserrat-extrabold d-block d-md-none px-5" style="font-size: 15px; text-align: justify">
-            <p> Skyline luôn tự hào là một trong những đơn vị đi đầu trong</p>
-            <p> lĩnh vực cung cấp giải pháp và thiết bị công nghệ Led chiếu sáng</p>
-            <p>thân thiện với môi trường được nhiều đối tác đánh giá cao.</p>
+        <div class="btn text-white montserrat d-block d-md-none px-5 " style="font-size: 16px; text-align: justify; margin-bottom: 25%">
+            <p> Skylight luôn tự hào là một trong những đơn vị đi đầu trong
+            lĩnh vực cung cấp giải pháp và thiết bị công nghệ Led chiếu sáng
+            thân thiện với môi trường được nhiều đối tác đánh giá cao.</p>
         </div>
     </div>
-    <div class="d-flex align-content-center justify-content-center position-absolute"style="z-index: 998; bottom: 12vh">
-        <div class="btn btn-outline-info p-1 border-3 ms-3" style="border-color: #25AAE2">
-            <div class="btn text-white montserrat-extrabold px-4" style="background-color: #25AAE2; font-size: 15px">
+    <div class="d-flex align-content-center justify-content-center position-absolute"style="z-index: 998; bottom: 22vh">
+        <div class="btn btn-outline-info p-1 border-3" style="border-color: #25AAE2">
+            <div class="btn text-white montserrat-extrabold communicate" style="background-color: #25AAE2; font-size: 15px">
                 NHẬN THÔNG TIN TƯ VẤN</div>
         </div>
     </div>
-    <div id="section-1-carousel" class="carousel slide w-100" data-bs-ride="carousel">
+    <div id="section-1-carousel" class="carousel slide w-100 h-100" data-bs-ride="carousel">
         <div class="carousel-indicators">
 {{--            @foreach($images as $key => $image)--}}
 {{--                <button type="button" data-bs-target="#section-1-carousel"--}}

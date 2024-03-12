@@ -1,4 +1,4 @@
-<div class="section-product" style="padding: 6% 18%">
+<div class="section-product" style="">
     <div class="row gx-5">
         <div class="col-lg-7 col-xs-12">
             <div class="main-img">
@@ -28,70 +28,70 @@
         <div class="col-lg-5 col-xs-12">
             <div class="d-none d-md-block">
                 <div class="p-1 border-3 ms-3" style="border-color: #25AAE2">
-                    <div class=" montserrat-bold px-4" style=" font-size: 2.09vw">
+                    <div class=" mobile-name montserrat-bold px-4" style=" font-size: 2.09vw">
                         {{$product->name}}</div>
                 </div>
                 <div class=" p-1 border-3 ms-3 mb-5" style="border-color: #25AAE2">
-                    <div class=" montserrat-bold ps-4" style="color: #25AAE2; font-size: 2.09vw">
+                    <div class=" montserrat-bold ps-4" style="color: #25AAE2; font-size: 3.09vw">
                         {{$product->price}}</div>
                 </div>
-                <div class=" p-1 border-3 ms-3 mb-5" style="border-color: #25AAE2">
+                <div class=" p-1  ms-3" style="border-color: #25AAE2">
                     <div class=" montserrat-bold px-4" style="font-size: 2.09vw">
                         MÔ TẢ
                     </div>
                 </div>
-                <div class=" p-1 border-3 ms-3 mb-5" style="border-color: #25AAE2">
+                <div class=" p-1 border-3 ms-3" style="border-color: #25AAE2">
                     <div class=" ps-4" style="font-size: 1rem; text-align: justify">
-                        {!!$product->title !!}
+                        {!! Str::limit($product->description, $limit = 250, $end = '...') !!}
                     </div>
                 </div>
             </div>
 
             <div class="d-block d-md-none">
-                <div class="p-1 border-3 ms-3 mt-5" style="border-color: #25AAE2">
-                    <div class=" montserrat-bold px-4" style=" font-size: 20px">
+                <div class="p-1 border-3 mt-5" style="border-color: #25AAE2">
+                    <div class=" montserrat-bold px-4 text-center" style=" font-size: 20px">
                         {{$product->name}}</div>
                 </div>
-                <div class=" p-1 border-3 mb-5" style="border-color: #25AAE2">
-                    <div class=" montserrat-bold  text-center" style="color: #25AAE2; font-size: 20px">
+                <div class=" p-1 border-3 mb-3" style="border-color: #25AAE2">
+                    <div class=" montserrat-bold  text-center" style="color: #25AAE2; font-size: 29px">
                         {{$product->price}}</div>
                 </div>
-                <div class=" p-1 border-3 text-center mb-5" style="border-color: #25AAE2">
+                <div class=" p-1 border-3 text-center mb-3" style="border-color: #25AAE2">
                     <div class=" montserrat-bold px-4" style="font-size: 20px">
                         MÔ TẢ
                     </div>
                 </div>
-                <div class=" border-3 mb-5" style="border-color: #25AAE2">
+                <div class=" border-3 mb-3" style="border-color: #25AAE2">
                     <div class="" style="font-size: 1rem; text-align: justify">
-                        {!!$product->title !!}
+                        {!! Str::limit($product->description, $limit = 250, $end = '...') !!}
                     </div>
                 </div>
             </div>
 
 
-            <div class=" p-1 border-3 ms-3 mb-5" style="border-color: #25AAE2">
+            <div class=" p-1 border-3 mb-3" style="border-color: #25AAE2">
                 <a href="tel:0931 189 996">
                     <img src="{{asset('images/product/order.png')}}" alt="" class="img-fluid">
                 </a>
             </div>
         </div>
     </div>
-    <div class=" p-1 mb-5" style="border-color: #25AAE2">
-        <div class=" montserrat-bold row" style="font-size: 29px; color: #25AAE2">
-            <div class="col-lg-4 col-xs-12"> THÔNG TIN SẢN PHẨM</div>
+    <div class=" p-1" style="border-color: #25AAE2">
+        <div class=" montserrat-bold row" style="font-size: 25px; color: #25AAE2">
+            <div class="col-lg-4 col-xs-12 text-center"> THÔNG TIN SẢN PHẨM</div>
             <div class="col-lg-8 col-xs-12">
                 <div class="horizontal-line"></div>
             </div>
         </div>
     </div>
-    <div class="border-3  mb-5" style="border-color: #25AAE2">
+    <div class="border-3 " style="border-color: #25AAE2">
         <div class="" style="font-size: 1rem; text-align: justify">
             {!!$product->description !!}
         </div>
     </div>
-    <div class=" p-1 border-3 ms-3 mb-5 d-flex align-content-center justify-content-center"
+    <div class=" p-1 border-3 mb-5 pt-5 d-flex align-content-center justify-content-center"
          style="border-color: #25AAE2">
-        <a class="btn btn-outline-info p-1 border-3 ms-3" style="border-color: #25AAE2" href="/">
+        <a class="btn btn-outline-info p-1 border-3" style="border-color: #25AAE2" href="/">
             <div class="btn text-white montserrat-bold px-4" style="background-color: #25AAE2; font-size: 15px">
                 XEM CÁC SẢN PHẨM KHÁC
             </div>
@@ -100,6 +100,19 @@
 
 </div>
 <style>
+    .section-product{
+        padding: 6% 18%
+    }
+    @media (max-width: 767px) {
+        .section-product{
+            padding: 4% 6%
+        }
+        .mobile-name{
+            text-align: center;
+        }
+
+    }
+
     .product-images .small-image {
         cursor: pointer;
     }

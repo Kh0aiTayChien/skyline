@@ -15,11 +15,11 @@
 }
 
 .footer .about {
-    padding-bottom: 1rem;
+
 }
 
 .footer .about .content {
-    margin-left: 10vw;
+    margin-left: 7.5vw;
 }
 
 @media only screen and (max-width: 600px) {

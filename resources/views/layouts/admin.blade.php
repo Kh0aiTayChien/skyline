@@ -85,7 +85,7 @@
             <div class="sidebar-brand-icon rotate-n-15">
 
             </div>
-            <div class="sidebar-brand-text mx-3">SKY LINE<sup><i class="fas fa-laugh-wink"></i></sup></div>
+            <div class="sidebar-brand-text mx-3">SKYLIGHT<sup><i class="fas fa-laugh-wink"></i></sup></div>
         </a>
 
         <!-- Divider -->
