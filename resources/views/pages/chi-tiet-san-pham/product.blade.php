@@ -42,7 +42,7 @@
                 </div>
                 <div class=" p-1 border-3 ms-3" style="border-color: #25AAE2">
                     <div class=" ps-4" style="font-size: 1rem; text-align: justify">
-                        {!! Str::limit($product->description, $limit = 250, $end = '...') !!}
+                        {!! Str::limit($product->title, $limit = 250, $end = '...') !!}
                     </div>
                 </div>
             </div>
@@ -63,7 +63,7 @@
                 </div>
                 <div class=" border-3 mb-3" style="border-color: #25AAE2">
                     <div class="" style="font-size: 1rem; text-align: justify">
-                        {!! Str::limit($product->description, $limit = 250, $end = '...') !!}
+                        {!! Str::limit($product->title, $limit = 250, $end = '...') !!}
                     </div>
                 </div>
             </div>
