@@ -45,6 +45,11 @@
                         {!! Str::limit($product->title, $limit = 250, $end = '...') !!}
                     </div>
                 </div>
+                <div class=" p-1 border-3 mb-3" style="border-color: #25AAE2">
+                    <a href="tel:0931 189 996">
+                        <img src="{{asset('images/product/order.png')}}" alt="" class="img-fluid">
+                    </a>
+                </div>
             </div>
 
             <div class="d-block d-md-none">
@@ -66,13 +71,6 @@
                         {!! Str::limit($product->title, $limit = 250, $end = '...') !!}
                     </div>
                 </div>
-            </div>
-
-
-            <div class=" p-1 border-3 mb-3" style="border-color: #25AAE2">
-                <a href="tel:0931 189 996">
-                    <img src="{{asset('images/product/order.png')}}" alt="" class="img-fluid">
-                </a>
             </div>
         </div>
     </div>
