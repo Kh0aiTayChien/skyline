@@ -15,7 +15,7 @@
     </div>
     <div class="position-absolute shake" style="right: 2%; margin-top: 80vh; animation: shake 1s infinite;">
         <a href="tel:0931 189 996">
-            <img src="{{asset('images/header/phone.png')}}" alt="" style="scale: 130%">
+            <img src="{{asset('images/header/phone.png')}}" alt="" style="scale: 15%; transform: translate(283%, -285%)">
         </a>
     </div>
 </div>
@@ -127,7 +127,7 @@
 <style>
     @keyframes shake {
         0% { transform: scale(1); }
-        50% { transform: scale(1.1); }
+        50% { transform: scale(1.02); }
         100% { transform: scale(1); }
     }
 </style>

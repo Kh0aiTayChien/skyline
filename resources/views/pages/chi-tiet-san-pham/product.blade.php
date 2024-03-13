@@ -2,17 +2,17 @@
     <div class="row gx-5">
         <div class="col-lg-7 col-xs-12">
             <div class="main-img">
-                <img src="{{$product->image}}" alt="" class="img-fluid w-100 large-image" style="object-fit: cover">
+                <img src="{{$product->image}}" alt="" class="img-fluid w-100 large-image object-cover" style="object-fit: cover">
             </div>
             <div class="row mt-4 product-images d-flex flex-wrap" style="overflow-x: auto;">
                 @foreach($mediaProducts as $media)
                     <div class="col-3">
-                        <img src="{{$media->url}}" alt="" class="img-fluid small-image"
+                        <img src="{{$media->url}}" alt="" class="img-fluid small-image object-cover"
                              style="height: 100%; object-fit: cover">
                     </div>
                 @endforeach
                 <div class="col-3">
-                    <img src="{{$product->image}}" alt="" class="img-fluid small-image"
+                    <img src="{{$product->image}}" alt="" class="img-fluid small-image object-cover"
                          style="height: 100%; object-fit: cover">
                 </div>
             </div>
@@ -28,7 +28,7 @@
         <div class="col-lg-5 col-xs-12">
             <div class="d-none d-md-block">
                 <div class="p-1 border-3 ms-3" style="border-color: #25AAE2">
-                    <div class=" mobile-name montserrat-bold px-4" style=" font-size: 2.09vw">
+                    <div class=" mobile-name montserrat-bold px-4" style=" font-size: 25px">
                         {{$product->name}}</div>
                 </div>
                 <div class=" p-1 border-3 ms-3 mb-5" style="border-color: #25AAE2">
@@ -36,7 +36,7 @@
                         {{ number_format($product->price, 0, ',', '.') }}</div></div>
                 </div>
                 <div class=" p-1  ms-3" style="border-color: #25AAE2">
-                    <div class=" montserrat-bold px-4" style="font-size: 2.09vw">
+                    <div class=" montserrat-bold px-4" style="font-size: 25px">
                         MÔ TẢ
                     </div>
                 </div>
@@ -74,7 +74,7 @@
             </div>
         </div>
     </div>
-    <div class=" p-1" style="border-color: #25AAE2">
+    <div class=" p-1" style=" border-color: #25AAE2">
         <div class=" montserrat-bold row" style="font-size: 25px; color: #25AAE2">
             <div class="col-lg-4 col-xs-12 text-center"> THÔNG TIN SẢN PHẨM</div>
             <div class="col-lg-8 col-xs-12">
@@ -82,11 +82,16 @@
             </div>
         </div>
     </div>
-    <div class="p-1 border-3 ms-1" style="border-color: #25AAE2">
-        <div class="" style="font-size: 1rem; text-align: justify">
+    <div class="p-1 border-3 ms-1 mt-5 d-none d-md-block" style="border-color: #25AAE2">
+        <div class="" style="font-size: 1rem; text-align: justify; padding: 0 18%">
             {!!$product->description !!}
         </div>
     </div>
+<div class="p-1 border-3 ms-1 d-block d-md-none" style="border-color: #25AAE2">
+    <div class="" style="font-size: 1rem; text-align: justify">
+        {!!$product->description !!}
+    </div>
+</div>
     <div class=" p-1 border-3 mb-5 pt-5 d-flex align-content-center justify-content-center"
          style="border-color: #25AAE2">
         <a class="btn btn-outline-info p-1 border-3" style="border-color: #25AAE2" href="/">

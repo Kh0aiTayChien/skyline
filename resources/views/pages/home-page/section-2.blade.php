@@ -31,8 +31,8 @@
             </button>
             <div class="row gx-0 img-course montserrat-bold mt-4 "
                  style="font-size: 25px; color: #25AAE2; padding: 0 4%" >
-                <div class="col-lg-3 col-md-12">Đèn Downlight</div>
-                <div class="col-lg-9 col-md-12">
+                <div class="col-lg-4 col-md-12">Đèn Downlight</div>
+                <div class="col-lg-8 col-md-12">
                     <div class="horizontal-line"></div>
                 </div>
             </div>
@@ -41,7 +41,7 @@
                     <div class="d-flex justify-content-center">
                         <div class="card rounded-custom shadow-effect"
                              style="width:20rem; height: 70% ">
-                            <img class="card-img-top img-fluid " src="{{$course->image}}"
+                            <img class="card-img-top img-fluid object-cover " src="{{$course->image}}"
                                  alt="Card image" style="height: 10rem">
                             <div class="card-body" style="background-color: #25AAE2">
                                 <p class="card-text text-start mulish-black text-white">
@@ -63,7 +63,7 @@
                 $('.carousel-courses').slick({
                     infinite: true,
                     speed: 900,
-                    slidesToShow: 3,
+                    slidesToShow: 4,
                     slidesToScroll: 1,
                     dots: true,
                     prevArrow: $('.custom-prev-arrow-course'),
@@ -115,7 +115,7 @@
                     <div class="d-flex justify-content-center">
                         <div class="card rounded-custom shadow-effect"
                              style="width:20rem; height: 70% ">
-                            <img class="card-img-top img-fluid " src="{{$course->image}}"
+                            <img class="card-img-top img-fluid object-cover " src="{{$course->image}}"
                                  alt="Card image" style="height: 10rem">
                             <div class="card-body" style="background-color: #25AAE2">
                                 <p class="card-text text-start mulish-black text-white">
@@ -137,7 +137,7 @@
                 $('.carousel-courses-1').slick({
                     infinite: true,
                     speed: 900,
-                    slidesToShow: 3,
+                    slidesToShow: 4,
                     slidesToScroll: 1,
                     prevArrow: $('.custom-prev-arrow-1'),
                     nextArrow: $('.custom-next-arrow-1'),
@@ -178,8 +178,8 @@
             </button>
             <div class="row gx-0 img-course pt-4 montserrat-bold "
                  style="font-size: 25px; color: #25AAE2; padding: 0 4%" >
-                <div class="col-lg-3 col-md-12">Đèn Ray Nam Châm</div>
-                <div class="col-lg-9 col-md-12">
+                <div class="col-lg-5 col-md-12">Đèn Ray Nam Châm</div>
+                <div class="col-lg-7 col-md-12">
                     <div class="horizontal-line"></div>
                 </div>
             </div>
@@ -188,7 +188,7 @@
                     <div class="d-flex justify-content-center">
                         <div class="card rounded-custom shadow-effect"
                              style="width:20rem; height: 70% ">
-                            <img class="card-img-top img-fluid " src="{{$course->image}}"
+                            <img class="card-img-top img-fluid object-cover " src="{{$course->image}}"
                                  alt="Card image" style="height: 10rem">
                             <div class="card-body" style="background-color: #25AAE2">
                                 <p class="card-text text-start mulish-black text-white">
@@ -210,7 +210,7 @@
                 $('.carousel-courses-2').slick({
                     infinite: true,
                     speed: 900,
-                    slidesToShow: 3,
+                    slidesToShow: 4,
                     slidesToScroll: 1,
                     dots: true,
                     prevArrow: $('.custom-prev-arrow-2'),
@@ -252,8 +252,8 @@
             </button>
             <div class="row gx-0 img-course pt-4 montserrat-bold "
                  style="font-size: 25px; color: #25AAE2; padding: 0 4%" >
-                <div class="col-lg-3 col-md-12">Công tắc ổ cắm</div>
-                <div class="col-lg-9 col-md-12">
+                <div class="col-lg-4 col-md-12">Công tắc ổ cắm</div>
+                <div class="col-lg-8 col-md-12">
                     <div class="horizontal-line"></div>
                 </div>
             </div>
@@ -262,7 +262,7 @@
                     <div class="d-flex justify-content-center">
                         <div class="card rounded-custom shadow-effect"
                              style="width:20rem; height: 70% ">
-                            <img class="card-img-top img-fluid " src="{{$course->image}}"
+                            <img class="card-img-top img-fluid object-cover " src="{{$course->image}}"
                                  alt="Card image" style="height: 10rem">
                             <div class="card-body" style="background-color: #25AAE2">
                                 <p class="card-text text-start mulish-black text-white">
@@ -284,7 +284,7 @@
                 $('.carousel-courses-3').slick({
                     infinite: true,
                     speed: 900,
-                    slidesToShow: 3,
+                    slidesToShow: 4,
                     slidesToScroll: 1,
                     dots: true,
                     prevArrow: $('.custom-prev-arrow-3'),

@@ -37,3 +37,6 @@
     border-color: #fff; /* Viền vàng cho dot active */
     color: transparent; /* Màu chữ trắng cho dot active */
 }
+.object-cover{
+    object-fit: cover;
+}
