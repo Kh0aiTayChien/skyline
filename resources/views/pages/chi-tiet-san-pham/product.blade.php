@@ -82,7 +82,7 @@
             </div>
         </div>
     </div>
-    <div class="border-3 " style="border-color: #25AAE2">
+    <div class="p1 border-3 " style="border-color: #25AAE2">
         <div class="" style="font-size: 1rem; text-align: justify">
             {!!$product->description !!}
         </div>
