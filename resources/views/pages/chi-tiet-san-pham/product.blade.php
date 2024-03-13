@@ -33,7 +33,7 @@
                 </div>
                 <div class=" p-1 border-3 ms-3 mb-5" style="border-color: #25AAE2">
                     <div class=" montserrat-bold ps-4" style="color: #25AAE2; font-size: 3.09vw">
-                        {{$product->price}}</div>
+                        {{ number_format($product->price, 0, ',', '.') }}</div></div>
                 </div>
                 <div class=" p-1  ms-3" style="border-color: #25AAE2">
                     <div class=" montserrat-bold px-4" style="font-size: 2.09vw">
