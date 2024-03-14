@@ -13,9 +13,14 @@
             </div>
         </div>
     </div>
+    <div class="position-absolute shake" style="right: 2%; margin-top: 72vh; ">
+        <a href="https://zalo.me/0931189996">
+            <img src="{{asset('images/header/zalo.png')}}" alt="" style="">
+        </a>
+    </div>
     <div class="position-absolute shake" style="right: 2%; margin-top: 80vh; animation: shake 1s infinite;">
         <a href="tel:0931 189 996">
-            <img src="{{asset('images/header/phone.png')}}" alt="" style="scale: 15%; transform: translate(283%, -285%)">
+            <img src="{{asset('images/header/phone.png')}}" alt="" style="">
         </a>
     </div>
 </div>
@@ -126,9 +131,9 @@
 </script>
 <style>
     @keyframes shake {
-        0% { transform: scale(1); }
-        50% { transform: scale(1.02); }
-        100% { transform: scale(1); }
+        0% { transform: scale(1); transform-origin: center center; }
+        50% { transform: scale(1.1); transform-origin: center center; }
+        100% { transform: scale(1); transform-origin: center center; }
     }
 </style>
 <script>

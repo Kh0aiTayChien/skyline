@@ -41,11 +41,11 @@
                     </div>
                 </div>
                 <div class=" p-1 border-3 ms-3" style="border-color: #25AAE2">
-                    <div class=" ps-4" style="font-size: 1rem; text-align: justify">
+                    <div class=" ps-4" style="font-size: 1rem; text-align: justify; height: 35vh">
                         {!! Str::limit($product->title, $limit = 250, $end = '...') !!}
                     </div>
                 </div>
-                <div class=" p-1 border-3 mb-3" style="border-color: #25AAE2">
+                <div class=" p-1 border-3 mb-5 ms-5 " style="border-color: #25AAE2">
                     <a href="tel:0931 189 996">
                         <img src="{{asset('images/product/order.png')}}" alt="" class="img-fluid">
                     </a>
@@ -74,11 +74,12 @@
             </div>
         </div>
     </div>
-    <div class=" p-1" style=" border-color: #25AAE2">
+    <div class="horizontal-line-custom" style=" border-color: #25AAE2; ">
         <div class=" montserrat-bold row" style="font-size: 25px; color: #25AAE2">
-            <div class="col-lg-4 col-xs-12 text-center"> THÔNG TIN SẢN PHẨM</div>
-            <div class="col-lg-8 col-xs-12">
-                <div class="horizontal-line"></div>
+            <div class="col-lg-4 col-xs-12 ">
+                <p class="text-center">THÔNG TIN SẢN PHẨM </p></div>
+            <div class="col-lg-8 col-xs-12 ">
+                <div class="horizontal-line me-5"></div>
             </div>
         </div>
     </div>
@@ -104,7 +105,11 @@
 </div>
 <style>
     .section-product{
-        padding: 6% 18%
+        padding: 0 18%
+    }
+    .horizontal-line-custom{
+        padding: 0 29vh;
+        margin-top: 2vh
     }
     @media (max-width: 767px) {
         .section-product{
@@ -113,7 +118,9 @@
         .mobile-name{
             text-align: center;
         }
-
+        .horizontal-line-custom{
+            padding: 0;
+        }
     }
 
     .product-images .small-image {

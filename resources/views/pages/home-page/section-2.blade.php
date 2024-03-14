@@ -46,6 +46,8 @@
                             <div class="card-body" style="background-color: #25AAE2">
                                 <p class="card-text text-start mulish-black text-white">
                                     <strong>{{\Illuminate\Support\Str::limit($course->name,40)}}</strong></p>
+                                <p class="card-text text-start mulish-black text-white">
+                                    <strong> {{ number_format($course->price, 0, ',', '.') }}</strong></p>
                                 <div class="d-flex align-content-center justify-content-start ">
                                     <a href="{{route('homepage.product.show',['slug' => $course->slug])}}"
                                        class=" btn-sm mb-3  btn-long button-shake montserrat" style="color: #E9D5A2; text-decoration: none;">XEM
@@ -70,14 +72,14 @@
                     nextArrow: $('.custom-next-arrow-course'),
                     responsive: [
                         {
-                            breakpoint: 1024,
+                            breakpoint: 1324,
                             settings: {
                                 slidesToShow: 3,
                                 slidesToScroll: 3,
                             }
                         },
                         {
-                            breakpoint: 600,
+                            breakpoint: 800,
                             settings: {
                                 slidesToShow: 2,
                                 slidesToScroll: 2
@@ -120,6 +122,8 @@
                             <div class="card-body" style="background-color: #25AAE2">
                                 <p class="card-text text-start mulish-black text-white">
                                     <strong>{{\Illuminate\Support\Str::limit($course->name,40)}}</strong></p>
+                                <p class="card-text text-start mulish-black text-white">
+                                    <strong> {{ number_format($course->price, 0, ',', '.') }}</strong></p>
                                 <div class="d-flex align-content-center justify-content-start ">
                                     <a href="{{route('homepage.product.show',['slug' => $course->slug])}}"
                                        class=" btn-sm mb-3  btn-long button-shake montserrat" style="color: #E9D5A2; text-decoration: none;">XEM
@@ -143,14 +147,14 @@
                     nextArrow: $('.custom-next-arrow-1'),
                     responsive: [
                         {
-                            breakpoint: 1024,
+                            breakpoint: 1324,
                             settings: {
                                 slidesToShow: 3,
                                 slidesToScroll: 3,
                             }
                         },
                         {
-                            breakpoint: 600,
+                            breakpoint: 800,
                             settings: {
                                 slidesToShow: 2,
                                 slidesToScroll: 2
@@ -193,6 +197,8 @@
                             <div class="card-body" style="background-color: #25AAE2">
                                 <p class="card-text text-start mulish-black text-white">
                                     <strong>{{\Illuminate\Support\Str::limit($course->name,40)}}</strong></p>
+                                <p class="card-text text-start mulish-black text-white">
+                                    <strong> {{ number_format($course->price, 0, ',', '.') }}</strong></p>
                                 <div class="d-flex align-content-center justify-content-start ">
                                     <a href="{{route('homepage.product.show',['slug' => $course->slug])}}"
                                        class=" btn-sm mb-3  btn-long button-shake montserrat" style="color: #E9D5A2; text-decoration: none;">XEM
@@ -217,14 +223,14 @@
                     nextArrow: $('.custom-next-arrow-2'),
                     responsive: [
                         {
-                            breakpoint: 1024,
+                            breakpoint: 1324,
                             settings: {
                                 slidesToShow: 3,
                                 slidesToScroll: 3,
                             }
                         },
                         {
-                            breakpoint: 600,
+                            breakpoint: 800,
                             settings: {
                                 slidesToShow: 2,
                                 slidesToScroll: 2
@@ -267,6 +273,8 @@
                             <div class="card-body" style="background-color: #25AAE2">
                                 <p class="card-text text-start mulish-black text-white">
                                     <strong>{{\Illuminate\Support\Str::limit($course->name,40)}}</strong></p>
+                                <p class="card-text text-start mulish-black text-white">
+                                    <strong> {{ number_format($course->price, 0, ',', '.') }}</strong></p>
                                 <div class="d-flex align-content-center justify-content-start ">
                                     <a href="{{route('homepage.product.show',['slug' => $course->slug])}}"
                                        class=" btn-sm mb-3  btn-long button-shake montserrat" style="color: #E9D5A2; text-decoration: none;">XEM
@@ -291,14 +299,14 @@
                     nextArrow: $('.custom-next-arrow-3'),
                     responsive: [
                         {
-                            breakpoint: 1024,
+                            breakpoint: 1324,
                             settings: {
                                 slidesToShow: 3,
                                 slidesToScroll: 3,
                             }
                         },
                         {
-                            breakpoint: 600,
+                            breakpoint: 800,
                             settings: {
                                 slidesToShow: 2,
                                 slidesToScroll: 2
