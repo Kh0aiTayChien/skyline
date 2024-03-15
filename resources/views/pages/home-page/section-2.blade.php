@@ -44,12 +44,12 @@
                             <img class="card-img-top img-fluid object-cover " src="{{$course->image}}"
                                  alt="Card image" style="height: 10rem">
                             <div class="card-body" style="background-color: #25AAE2">
-                                <p class="card-text text-start mulish-black text-white">
-                                    <strong>{{\Illuminate\Support\Str::limit($course->name,40)}}</strong></p>
-                                <p class="card-text text-start mulish-black text-white">
+                                <p class="card-text text-start mulish-black text-white" style="height: 3rem">
+                                    <strong>{{\Illuminate\Support\Str::limit($course->name,30)}}</strong></p>
+                                <p class="card-text text-start mulish-black text-white" style="font-size: 23px">
                                     <strong> {{ number_format($course->price, 0, ',', '.') }}</strong></p>
                                 <div class="d-flex align-content-center justify-content-start ">
-                                    <a href="{{route('homepage.product.show',['slug' => $course->slug])}}"
+                                    <a target="_blank" href="{{route('homepage.product.show',['slug' => $course->slug])}}"
                                        class=" btn-sm mb-3  btn-long button-shake montserrat" style="color: #E9D5A2; text-decoration: none;">XEM
                                         CHI TIẾT</a>
                                 </div>
@@ -120,12 +120,12 @@
                             <img class="card-img-top img-fluid object-cover " src="{{$course->image}}"
                                  alt="Card image" style="height: 10rem">
                             <div class="card-body" style="background-color: #25AAE2">
-                                <p class="card-text text-start mulish-black text-white">
-                                    <strong>{{\Illuminate\Support\Str::limit($course->name,40)}}</strong></p>
-                                <p class="card-text text-start mulish-black text-white">
+                                <p class="card-text text-start mulish-black text-white" style="height: 3rem">
+                                    <strong>{{\Illuminate\Support\Str::limit($course->name,30)}}</strong></p>
+                                <p class="card-text text-start mulish-black text-white" style="font-size: 23px">
                                     <strong> {{ number_format($course->price, 0, ',', '.') }}</strong></p>
                                 <div class="d-flex align-content-center justify-content-start ">
-                                    <a href="{{route('homepage.product.show',['slug' => $course->slug])}}"
+                                    <a target="_blank" href="{{route('homepage.product.show',['slug' => $course->slug])}}"
                                        class=" btn-sm mb-3  btn-long button-shake montserrat" style="color: #E9D5A2; text-decoration: none;">XEM
                                         CHI TIẾT</a>
                                 </div>
@@ -195,12 +195,12 @@
                             <img class="card-img-top img-fluid object-cover " src="{{$course->image}}"
                                  alt="Card image" style="height: 10rem">
                             <div class="card-body" style="background-color: #25AAE2">
-                                <p class="card-text text-start mulish-black text-white">
-                                    <strong>{{\Illuminate\Support\Str::limit($course->name,40)}}</strong></p>
-                                <p class="card-text text-start mulish-black text-white">
+                                <p class="card-text text-start mulish-black text-white" style="height: 3rem">
+                                    <strong>{{\Illuminate\Support\Str::limit($course->name,30)}}</strong></p>
+                                <p class="card-text text-start mulish-black text-white" style="font-size: 23px">
                                     <strong> {{ number_format($course->price, 0, ',', '.') }}</strong></p>
                                 <div class="d-flex align-content-center justify-content-start ">
-                                    <a href="{{route('homepage.product.show',['slug' => $course->slug])}}"
+                                    <a target="_blank" href="{{route('homepage.product.show',['slug' => $course->slug])}}"
                                        class=" btn-sm mb-3  btn-long button-shake montserrat" style="color: #E9D5A2; text-decoration: none;">XEM
                                         CHI TIẾT</a>
                                 </div>
@@ -271,12 +271,12 @@
                             <img class="card-img-top img-fluid object-cover " src="{{$course->image}}"
                                  alt="Card image" style="height: 10rem">
                             <div class="card-body" style="background-color: #25AAE2">
-                                <p class="card-text text-start mulish-black text-white">
-                                    <strong>{{\Illuminate\Support\Str::limit($course->name,40)}}</strong></p>
-                                <p class="card-text text-start mulish-black text-white">
+                                <p class="card-text text-start mulish-black text-white" style="height: 3rem">
+                                    <strong>{{\Illuminate\Support\Str::limit($course->name,30)}}</strong></p>
+                                <p class="card-text text-start mulish-black text-white" style="font-size: 23px">
                                     <strong> {{ number_format($course->price, 0, ',', '.') }}</strong></p>
                                 <div class="d-flex align-content-center justify-content-start ">
-                                    <a href="{{route('homepage.product.show',['slug' => $course->slug])}}"
+                                    <a target="_blank" href="{{route('homepage.product.show',['slug' => $course->slug])}}"
                                        class=" btn-sm mb-3  btn-long button-shake montserrat" style="color: #E9D5A2; text-decoration: none;">XEM
                                         CHI TIẾT</a>
                                 </div>

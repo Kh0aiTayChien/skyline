@@ -14,7 +14,7 @@
         </div>
     </div>
     <div class="position-absolute shake" style="right: 2%; margin-top: 72vh; ">
-        <a href="https://zalo.me/0931189996">
+        <a target="_blank" href="https://zalo.me/0931189996">
             <img src="{{asset('images/header/zalo.png')}}" alt="" style="">
         </a>
     </div>
@@ -80,6 +80,16 @@
             });
         });
     </script>
+    <div class="position-absolute shake" style="right: 2%; margin-top: 75vh; ">
+        <a href="https://zalo.me/0931189996">
+            <img src="{{asset('images/header/zalo.png')}}" alt="" style="">
+        </a>
+    </div>
+    <div class="position-absolute shake" style="right: 2%; margin-top: 82vh; animation: shake 1s infinite;">
+        <a href="tel:0931 189 996">
+            <img src="{{asset('images/header/phone.png')}}" alt="" style="">
+        </a>
+    </div>
 </div>
 <div class="menu-dropdown blue-bg d-none">
     <div class="mobile-menu">

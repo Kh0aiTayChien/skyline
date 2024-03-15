@@ -34,7 +34,7 @@
                 <div class=" p-1 border-3 ms-3 mb-5" style="border-color: #25AAE2">
                     <div class=" montserrat-bold ps-4" style="color: #25AAE2; font-size: 3.09vw">
                         {{ number_format($product->price, 0, ',', '.') }}</div></div>
-                </div>
+
                 <div class=" p-1  ms-3" style="border-color: #25AAE2">
                     <div class=" montserrat-bold px-4" style="font-size: 25px">
                         MÔ TẢ
@@ -71,6 +71,11 @@
                         {!! Str::limit($product->title, $limit = 250, $end = '...') !!}
                     </div>
                 </div>
+                <div class=" p-1 border-3 mb-5 ms-5 " style="border-color: #25AAE2">
+                    <a href="tel:0931 189 996">
+                        <img src="{{asset('images/product/order.png')}}" alt="" class="img-fluid">
+                    </a>
+                </div>
             </div>
         </div>
     </div>
@@ -84,7 +89,7 @@
         </div>
     </div>
     <div class="p-1 border-3 ms-1 mt-5 d-none d-md-block" style="border-color: #25AAE2">
-        <div class="" style="font-size: 1rem; text-align: justify; padding: 0 18%">
+        <div class="" style="font-size: 1rem; text-align: justify;">
             {!!$product->description !!}
         </div>
     </div>
@@ -108,7 +113,6 @@
         padding: 0 18%
     }
     .horizontal-line-custom{
-        padding: 0 29vh;
         margin-top: 2vh
     }
     @media (max-width: 767px) {
