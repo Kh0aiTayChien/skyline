@@ -1,8 +1,9 @@
-<div class="section-product" style="">
+<div class="section-product mt-5" style="">
     <div class="row gx-5">
         <div class="col-lg-7 col-xs-12">
             <div class="main-img">
-                <img src="{{$product->image}}" alt="" class="img-fluid w-100 large-image object-cover" style="object-fit: cover">
+                <img src="{{$product->image}}" alt="" class="img-fluid w-100 large-image object-cover"
+                     style="object-fit: cover">
             </div>
             <div class="row mt-4 product-images d-flex flex-wrap" style="overflow-x: auto;">
                 @foreach($mediaProducts as $media)
@@ -61,8 +62,8 @@
                     <div class=" montserrat-bold  text-center" style="color: #25AAE2; font-size: 29px">
                         {{ number_format($product->price, 0, ',', '.') }}</div>
                 </div>
-                <div class=" p-1 border-3 text-center mb-3" style="border-color: #25AAE2">
-                    <div class=" montserrat-bold px-4" style="font-size: 20px">
+                <div class="  border-3 mb-3" style="border-color: #25AAE2">
+                    <div class=" montserrat-bold " style="font-size: 20px">
                         MÔ TẢ
                     </div>
                 </div>
@@ -71,7 +72,7 @@
                         {!! Str::limit($product->title, $limit = 250, $end = '...') !!}
                     </div>
                 </div>
-                <div class=" p-1 border-3 mb-5 ms-5 " style="border-color: #25AAE2">
+                <div class="border-3 mb-5 " style="border-color: #25AAE2">
                     <a href="tel:0931 189 996">
                         <img src="{{asset('images/product/order.png')}}" alt="" class="img-fluid">
                     </a>
@@ -82,9 +83,9 @@
     <div class="horizontal-line-custom" style=" border-color: #25AAE2; ">
         <div class=" montserrat-bold row" style="font-size: 25px; color: #25AAE2">
             <div class="col-lg-4 col-xs-12 ">
-                <p class="text-center">THÔNG TIN SẢN PHẨM </p></div>
+                <p class="text-center-custom">THÔNG TIN SẢN PHẨM </p></div>
             <div class="col-lg-8 col-xs-12 ">
-                <div class="horizontal-line me-5"></div>
+                <div class="d-none d-md-block horizontal-line me-5"></div>
             </div>
         </div>
     </div>
@@ -112,8 +113,11 @@
     .section-product{
         padding: 0 18%
     }
-    .horizontal-line-custom{
+    .horizontal-line-custom {
         margin-top: 2vh
+    }
+    .text-center-custom{
+        text-align: center;
     }
     @media (max-width: 767px) {
         .section-product{
@@ -124,6 +128,9 @@
         }
         .horizontal-line-custom{
             padding: 0;
+        }
+        .text-center-custom{
+            text-align: unset;
         }
     }
 

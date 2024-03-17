@@ -33,7 +33,7 @@
                  style="font-size: 25px; color: #25AAE2; padding: 0 4%" >
                 <div class="col-lg-4 col-md-12">Đèn Downlight</div>
                 <div class="col-lg-8 col-md-12">
-                    <div class="horizontal-line"></div>
+                    <div class="horizontal-line d-none d-md-block"></div>
                 </div>
             </div>
             <div class="carousel-courses">
@@ -109,7 +109,7 @@
                  style="font-size: 25px; color: #25AAE2; padding: 0 4%" >
                 <div class="col-lg-3 col-md-12">Đèn Spotlight</div>
                 <div class="col-lg-9 col-md-12">
-                    <div class="horizontal-line"></div>
+                    <div class="horizontal-line d-none d-md-block"></div>
                 </div>
             </div>
             <div class="carousel-courses-1">
@@ -184,7 +184,7 @@
                  style="font-size: 25px; color: #25AAE2; padding: 0 4%" >
                 <div class="col-lg-5 col-md-12">Đèn Ray Nam Châm</div>
                 <div class="col-lg-7 col-md-12">
-                    <div class="horizontal-line"></div>
+                    <div class="horizontal-line d-none d-md-block"></div>
                 </div>
             </div>
             <div class="carousel-courses-2">
@@ -260,7 +260,7 @@
                  style="font-size: 25px; color: #25AAE2; padding: 0 4%" >
                 <div class="col-lg-4 col-md-12">Công tắc ổ cắm</div>
                 <div class="col-lg-8 col-md-12">
-                    <div class="horizontal-line"></div>
+                    <div class="horizontal-line d-none d-md-block"></div>
                 </div>
             </div>
             <div class="carousel-courses-3">
