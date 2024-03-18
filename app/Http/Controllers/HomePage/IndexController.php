@@ -8,6 +8,10 @@ use App\Models\Cart;
 use App\Models\Image;
 use App\Models\Product;
 use App\Models\Session;
+use Artesaos\SEOTools\Facades\JsonLd;
+use Artesaos\SEOTools\Facades\OpenGraph;
+use Artesaos\SEOTools\Facades\SEOMeta;
+use Artesaos\SEOTools\Facades\TwitterCard;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Cookie;
 use Illuminate\Support\Str;
@@ -17,6 +21,24 @@ class IndexController extends Controller
 {
     public function index(Request $request)
     {
+        SEOMeta::setTitle(' SKYLIGHT');
+        SEOMeta::setDescription('Skylight luôn tự hào là một trong những đơn vị đi đầu trong  lĩnh vực cung cấp giải pháp và thiết bị công nghệ Led chiếu sáng
+        thân thiện với môi trường được nhiều đối tác đánh giá cao.' );
+
+        OpenGraph::setDescription('Skylight luôn tự hào là một trong những đơn vị đi đầu trong  lĩnh vực cung cấp giải pháp và thiết bị công nghệ Led chiếu sáng
+        thân thiện với môi trường được nhiều đối tác đánh giá cao.' );
+        OpenGraph::setTitle('SKYLIGHT');
+        OpenGraph::setUrl('https://skylight.net.vn/');
+        OpenGraph::addProperty('type', 'article');
+        OpenGraph::addImage('https://skylight.net.vn/uploads/images/vidu2.png');
+
+        TwitterCard::setTitle('THE MINATO RESIDENCE - Căn hộ cao cấp chuẩn 100% Nhật Đầu tiên tại Miền Bắc');
+        TwitterCard::setSite('https://skylight.net.vn/uploads/images/vidu2.png');
+
+        JsonLd::setTitle('SKYLIGHT');
+        JsonLd::setDescription('Skylight luôn tự hào là một trong những đơn vị đi đầu trong  lĩnh vực cung cấp giải pháp và thiết bị công nghệ Led chiếu sáng
+        thân thiện với môi trường được nhiều đối tác đánh giá cao.' );
+        JsonLd::addImage('https://skylight.net.vn/uploads/images/vidu2.png');
         $categoryImgSlug = "anh-banner-trang-chu";
         $images = Image::whereHas('category', function ($query) use ($categoryImgSlug) {
             $query->where('slug', $categoryImgSlug);

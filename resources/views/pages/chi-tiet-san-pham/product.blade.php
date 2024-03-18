@@ -3,7 +3,7 @@
         <div class="col-lg-7 col-xs-12">
             <div class="main-img">
                 <img src="{{$product->image}}" alt="" class="img-fluid w-100 large-image object-cover"
-                     style="object-fit: cover">
+                     style="">
             </div>
             <div class="row mt-4 product-images d-flex flex-wrap" style="overflow-x: auto;">
                 @foreach($mediaProducts as $media)

@@ -39,4 +39,11 @@
 }
 .object-cover{
     object-fit: cover;
+    height: 60vh;
+}
+@media only screen and (max-width: 800px) {
+    .object-cover{
+        object-fit: cover;
+        height: 25vh;
+    }
 }
