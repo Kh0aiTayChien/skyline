@@ -90,12 +90,12 @@
         </div>
     </div>
     <div class="p-1 border-3 ms-1 mt-5 d-none d-md-block" style="border-color: #25AAE2">
-        <div class="" style="font-size: 1rem; text-align: justify;">
+        <div class="content" style="font-size: 1rem; text-align: justify;">
             {!!$product->description !!}
         </div>
     </div>
 <div class="p-1 border-3 ms-1 d-block d-md-none" style="border-color: #25AAE2">
-    <div class="" style="font-size: 1rem; text-align: justify">
+    <div class="content" style="font-size: 1rem; text-align: justify">
         {!!$product->description !!}
     </div>
 </div>
@@ -171,11 +171,31 @@
     .table-responsive {
         overflow-x: auto; /* Cho phép cuộn ngang khi nội dung quá rộng */
     }
+    .content iframe {
+        width: 100%;
+        height: 80vh;
+    }
+
+    /* Sử dụng media query để thay đổi chiều cao thành 185vh cho mobile */
+    @media (max-width: 767px) {
+        .content iframe {
+            height: 30vh;
+        }
+    }
 </style>
 <script>
     $(document).ready(function () {
         $('.image img').addClass('img-fluid');
         $('.image ').addClass('figure-image ');
         $('.table ').addClass('table table-bordered');
+        // Tìm tất cả thẻ <oembed> và chuyển đổi thành thẻ <iframe>
+        $('oembed').each(function () {
+            var url = $(this).attr('url');
+            var iframe = $('<iframe>').attr({
+                'src': url,
+                'width': '100%', // Đặt chiều rộng là 100%
+            });
+            $(this).replaceWith(iframe);
+        });
     });
 </script>

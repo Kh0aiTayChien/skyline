@@ -11,7 +11,7 @@
 }
 
 .header {
-    height: 9.5vh;
+    height: 7.5vh;
     background-color: rgba(255, 255, 255, 1);
     letter-spacing: 1px; /* Chữ giãn rộng 1px */
 }
@@ -52,6 +52,13 @@
 
 .btn-transparent {
     background-color: transparent;
+    border: hidden;
+    font-family: 'Montserrat-ExtraBold';
+    font-size: 12px;
+    letter-spacing: 1px; /* Chữ giãn rộng 1px */
+}
+.btn-white {
+    background-color: white;
     border: hidden;
     font-family: 'Montserrat-ExtraBold';
     font-size: 12px;

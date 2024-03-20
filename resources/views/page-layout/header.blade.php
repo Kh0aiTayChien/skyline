@@ -1,18 +1,31 @@
 <div class="header shadow-effect sticky-top d-none d-md-block montserrat-extrabold ">
     <div class="header-content d-flex align-content-center " style="">
-        <img class="header-logo" src="{{asset('images/header/LOGO.png')}}" alt="LOGO" style="cursor: pointer; scale: 80%"; >
+        <img class="header-logo" src="{{asset('images/header/LOGO.png')}}" alt="LOGO" style="cursor: pointer; scale: 60%"; >
         <div class="header-list d-flex justify-content-end align-content-center row gx-0" >
             <div class="col-2 text-center no-opacity">
                 <button class="btn-transparent px-3 intro" style="color: #25AAE2">GIỚI THIỆU</button>
             </div>
-            <div class="col-2 text-center no-opacity">
-                <button class="btn-transparent px-3 product-sc"style="color: #25AAE2">SẢN PHẨM</button>
+            <div class="col-2 text-center no-opacity position-relative">
+                <button class="btn-transparent px-3 product-sc-product"style="color: #25AAE2">SẢN PHẨM</button>
+                <div class="position-absolute hide_button" style=" margin-top: 3vh; background-color: white">
+                    <button class="product-sc text-center btn-white btn-long py-2"style="color: #25AAE2;">ĐÈN DOWNLIGHT</button>
+                </div>
+                <div class="position-absolute hide_button" style=" margin-top: 7vh; ">
+                    <button class="product-sc-s text-center btn-white btn-long py-2"style="color: #25AAE2;">ĐÈN SPOTLIGHT</button>
+                </div>
+                <div class="position-absolute hide_button" style=" margin-top: 11vh; ">
+                    <button class="product-sc-r text-center btn-white btn-long py-2"style="color: #25AAE2;">ĐÈN RAY NAM CHÂM </button>
+                </div>
+                <div class="position-absolute hide_button" style=" margin-top: 15vh; ">
+                    <button class="product-sc-c text-center btn-white btn-long py-2"style="color: #25AAE2;">CÔNG TẮC Ổ CẮM</button>
+                </div>
             </div>
             <div class="col-2 text-center no-opacity">
                 <button class="btn-contact px-4 communicate">LIÊN HỆ</button>
             </div>
         </div>
     </div>
+
     <div class="position-absolute shake" style="right: 2%; margin-top: 72vh; ">
         <a target="_blank" href="https://zalo.me/0931189996">
             <img src="{{asset('images/header/zalo.png')}}" alt="" style="">
@@ -124,6 +137,9 @@
         height: 100%;
         z-index: 999; /* Đảm bảo div phủ lên trên cùng */
     }
+    .hide_button {
+        display: none;
+    }
 </style>
 <script>
     $(document).ready(function () {
@@ -163,7 +179,40 @@
             event.preventDefault(); // Ngăn chặn hành động mặc định của nút
 
             // Tính toán vị trí cần cuộn đến (50% chiều cao của màn hình)
-            var scrollToPosition = $(document).height() / 3.5;
+            var scrollToPosition = $(document).height() / 3.8;
+
+            // Thực hiện cuộn mềm mại đến vị trí đã tính toán
+            $('html, body').animate({
+                scrollTop: scrollToPosition
+            }, 500); // Thời gian cuộn (trong mili giây)
+        });
+        $('.product-sc-s').click(function(event) {
+            event.preventDefault(); // Ngăn chặn hành động mặc định của nút
+
+            // Tính toán vị trí cần cuộn đến (50% chiều cao của màn hình)
+            var scrollToPosition = $(document).height() / 2.9;
+
+            // Thực hiện cuộn mềm mại đến vị trí đã tính toán
+            $('html, body').animate({
+                scrollTop: scrollToPosition
+            }, 500); // Thời gian cuộn (trong mili giây)
+        });
+        $('.product-sc-r').click(function(event) {
+            event.preventDefault(); // Ngăn chặn hành động mặc định của nút
+
+            // Tính toán vị trí cần cuộn đến (50% chiều cao của màn hình)
+            var scrollToPosition = $(document).height() / 2.2;
+
+            // Thực hiện cuộn mềm mại đến vị trí đã tính toán
+            $('html, body').animate({
+                scrollTop: scrollToPosition
+            }, 500); // Thời gian cuộn (trong mili giây)
+        });
+        $('.product-sc-c').click(function(event) {
+            event.preventDefault(); // Ngăn chặn hành động mặc định của nút
+
+            // Tính toán vị trí cần cuộn đến (50% chiều cao của màn hình)
+            var scrollToPosition = $(document).height() / 1.75;
 
             // Thực hiện cuộn mềm mại đến vị trí đã tính toán
             $('html, body').animate({
@@ -188,6 +237,9 @@
             $('html, body').animate({
                 scrollTop: 0 // Cuộn lên đầu trang
             }, 1000); // Thời gian cuộn (trong mili giây)
+        });
+        $('.product-sc-product').click(function(){
+            $('.hide_button').stop().slideToggle(300);
         });
     });
 </script>
