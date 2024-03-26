@@ -21,6 +21,9 @@
                 </div>
             </div>
             <div class="col-2 text-center no-opacity">
+                <button class="btn-transparent px-3 document" style="color: #25AAE2">TÀI LIỆU</button>
+            </div>
+            <div class="col-2 text-center no-opacity">
                 <button class="btn-contact px-4 communicate">LIÊN HỆ</button>
             </div>
         </div>
@@ -90,6 +93,9 @@
         $(document).ready(function(){
             $(".header-logo").click(function(){
                 window.location.href = "/";
+            });
+            $(".document").click(function(){
+                window.location.href = "/tai-lieu";
             });
         });
     </script>

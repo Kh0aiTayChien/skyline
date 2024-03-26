@@ -152,6 +152,7 @@
     cursor: pointer;
     scale: 75%;
     z-index: 2;
+    display: none !important;
 }
 
 .custom-prev-arrow-course {
@@ -283,6 +284,8 @@
     {
         left: -1rem;
         opacity: 50%;
+        display: block !important;
+
     }
     .custom-next-arrow-course,
     .custom-next-arrow-1,
@@ -291,6 +294,7 @@
     {
         right: -1rem;
         opacity: 50%;
+        display: block !important;
     }
 
     .sec2-homepage-pc, .sec3-homepage-pc {

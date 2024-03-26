@@ -10,6 +10,7 @@ use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', [IndexController::class, 'index'])->name('homepage.index');
+Route::get('/tai-lieu', [IndexController::class, 'document'])->name('homepage.document');
 Route::get('/san-pham/{slug}', [ProductController::class, 'show'])->name('homepage.product.show');
 Auth::routes();
 Route::prefix('admin')->middleware('auth')->group(function () {

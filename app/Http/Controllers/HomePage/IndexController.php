@@ -45,11 +45,16 @@ class IndexController extends Controller
         })->get();
 
 
-        $courses = Product::where('category_id', 2)->get();
-        $courses1 = Product::where('category_id', 3)->get();
-        $courses2 = Product::where('category_id', 4)->get();
-        $courses3 = Product::where('category_id', 5)->get();
+        $courses = Product::where('category_id', 2)->limit(8)->get();
+        $courses1 = Product::where('category_id', 3)->limit(8)->get();
+        $courses2 = Product::where('category_id', 4)->limit(8)->get();
+        $courses3 = Product::where('category_id', 5)->limit(8)->get();
 
         return view('pages/home-page/index', ['images' => $images, 'courses' => $courses, 'courses1' => $courses1, 'courses2' => $courses2, 'courses3' => $courses3]);
+    }
+
+    public function document()
+    {
+        return view('pages/document/index');
     }
 }
