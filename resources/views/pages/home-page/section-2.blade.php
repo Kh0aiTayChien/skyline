@@ -533,7 +533,7 @@
         }
 
         .product-pc-title {
-            display: none;
+            display: none !important;
         }
     }
 
