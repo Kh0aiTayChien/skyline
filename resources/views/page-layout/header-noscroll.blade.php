@@ -112,14 +112,13 @@
 </div>
 <div class="menu-dropdown blue-bg d-none">
     <div class="mobile-menu">
-        <div class="text-center header-logo btn-outline-danger">TRANG CHỦ</div>
-        <div class="text-center mt-4 document">TÀI LIỆU</div>
+        <div class="text-center header-logo">TRANG CHỦ</div>
+        <div class="text-center mt-4 document btn-outline-danger">TÀI LIỆU</div>
 {{--        <div class="text-center mt-4">VỀ THẦY NINO</div>--}}
 {{--        <div class="text-center mt-4">CÁC KHÓA HỌC</div>--}}
 {{--        <div class="text-center mt-4">KIẾN THỨC</div>--}}
         <div class="text-center mt-4">
 {{--            <button class="btn-contact px-5 py-1">LIÊN HỆ</button>--}}
-
         </div>
     </div>
 
@@ -170,58 +169,19 @@
     $(document).ready(function() {
         $('.intro').click(function(event) {
             event.preventDefault(); // Ngăn chặn hành động mặc định của nút
-
-            // Tính toán vị trí cần cuộn đến (50% chiều cao của màn hình)
-            var scrollToPosition = $(document).height() / 5.8;
-
-            // Thực hiện cuộn mềm mại đến vị trí đã tính toán
-            $('html, body').animate({
-                scrollTop: scrollToPosition
-            }, 500); // Thời gian cuộn (trong mili giây)
+            window.location.href = "/";
         });
         $('.product-sc').click(function(event) {
-            event.preventDefault(); // Ngăn chặn hành động mặc định của nút
-
-            // Tính toán vị trí cần cuộn đến (50% chiều cao của màn hình)
-            var scrollToPosition = $(document).height() / 3.6;
-
-            // Thực hiện cuộn mềm mại đến vị trí đã tính toán
-            $('html, body').animate({
-                scrollTop: scrollToPosition
-            }, 500); // Thời gian cuộn (trong mili giây)
+            window.location.href = "/";
         });
         $('.product-sc-s').click(function(event) {
-            event.preventDefault(); // Ngăn chặn hành động mặc định của nút
-
-            // Tính toán vị trí cần cuộn đến (50% chiều cao của màn hình)
-            var scrollToPosition = $(document).height() / 2.2;
-
-            // Thực hiện cuộn mềm mại đến vị trí đã tính toán
-            $('html, body').animate({
-                scrollTop: scrollToPosition
-            }, 500); // Thời gian cuộn (trong mili giây)
+            window.location.href = "/";
         });
         $('.product-sc-r').click(function(event) {
-            event.preventDefault(); // Ngăn chặn hành động mặc định của nút
-
-            // Tính toán vị trí cần cuộn đến (50% chiều cao của màn hình)
-            var scrollToPosition = $(document).height() / 1.8;
-
-            // Thực hiện cuộn mềm mại đến vị trí đã tính toán
-            $('html, body').animate({
-                scrollTop: scrollToPosition
-            }, 500); // Thời gian cuộn (trong mili giây)
+            window.location.href = "/";
         });
         $('.product-sc-c').click(function(event) {
-            event.preventDefault(); // Ngăn chặn hành động mặc định của nút
-
-            // Tính toán vị trí cần cuộn đến (50% chiều cao của màn hình)
-            var scrollToPosition = $(document).height() / 1.5;
-
-            // Thực hiện cuộn mềm mại đến vị trí đã tính toán
-            $('html, body').animate({
-                scrollTop: scrollToPosition
-            }, 500); // Thời gian cuộn (trong mili giây)
+            window.location.href = "/";
         });
         $('.communicate').click(function(event) {
             event.preventDefault(); // Ngăn chặn hành động mặc định của nút
@@ -243,7 +203,7 @@
             }, 1000); // Thời gian cuộn (trong mili giây)
         });
         $('.product-sc-product').click(function(){
-            $('.hide_button').stop().slideToggle(300);
+            window.location.href = "/";
         });
     });
 </script>

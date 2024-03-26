@@ -188,10 +188,11 @@
                 <img src="{{asset('images/arrow/right.png')}}" alt="Next" class=" button-shake"/>
             </button>
             <div class="row gx-0 img-course montserrat-bold mt-4 product-pc-title"
-                 style="font-size: 25px; color: #25AAE2; padding: 0 4%">
-                <div class="col-lg-4 col-md-12">Đèn Downlight</div>
-                <div class="col-lg-8 col-md-12">
-                    <div class="horizontal-line d-none d-md-block"></div>
+                 style="font-size: 25px; color: #25AAE2; padding: 0 ">
+                <div
+                    class="d-flex align-content-center justify-content-center img-course montserrat-bold btn-block pb-2"
+                    style="font-size: 29px; color: #25AAE2; box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2);">
+                    <div class="" style=" border-bottom: 4px solid #25AAE2; padding-bottom: 1px;">ĐÈN DOWNLIGHT</div>
                 </div>
             </div>
             <div class="carousel-courses">
@@ -265,11 +266,12 @@
             <button class="custom-next-arrow-1 " aria-label="Next">
                 <img src="{{asset('images/arrow/right.png')}}" alt="Next" class=" button-shake"/>
             </button>
-            <div class="row gx-0 img-course montserrat-bold product-pc-title"
-                 style="font-size: 25px; color: #25AAE2; padding: 0 4%">
-                <div class="col-lg-3 col-md-12">Đèn Spotlight</div>
-                <div class="col-lg-9 col-md-12">
-                    <div class="horizontal-line d-none d-md-block"></div>
+            <div class="row gx-0 img-course montserrat-bold mt-4 product-pc-title"
+                 style="font-size: 25px; color: #25AAE2; padding: 0 ">
+                <div
+                    class="d-flex align-content-center justify-content-center img-course montserrat-bold btn-block pb-2"
+                    style="font-size: 29px; color: #25AAE2; box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2);">
+                    <div class="" style=" border-bottom: 4px solid #25AAE2; padding-bottom: 1px;">ĐÈN SPOTLIGHT</div>
                 </div>
             </div>
             <div class="carousel-courses-1">
@@ -336,17 +338,18 @@
         </script>
 
         <div class="slick-carousel position-relative ">
-            <button class="custom-prev-arrow-2 " aria-label="Previous">
+            <button class="custom-prev-arrow-2 product-pc-title" aria-label="Previous">
                 <img src="{{asset('images/arrow/left.png')}}" alt="Previous" class=" button-shake"/>
             </button>
-            <button class="custom-next-arrow-2 " aria-label="Next">
+            <button class="custom-next-arrow-2 product-pc-title" aria-label="Next">
                 <img src="{{asset('images/arrow/right.png')}}" alt="Next" class=" button-shake"/>
             </button>
-            <div class="row gx-0 img-course pt-4 montserrat-bold product-pc-title"
-                 style="font-size: 25px; color: #25AAE2; padding: 0 4%">
-                <div class="col-lg-5 col-md-12">Đèn Ray Nam Châm</div>
-                <div class="col-lg-7 col-md-12">
-                    <div class="horizontal-line d-none d-md-block"></div>
+            <div class="row gx-0 img-course montserrat-bold mt-4 product-pc-title"
+                 style="font-size: 25px; color: #25AAE2; padding: 0 ">
+                <div
+                    class="d-flex align-content-center justify-content-center img-course montserrat-bold btn-block pb-2"
+                    style="font-size: 29px; color: #25AAE2; box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2);">
+                    <div class="" style=" border-bottom: 4px solid #25AAE2; padding-bottom: 1px;">ĐÈN RAY NAM CHÂM</div>
                 </div>
             </div>
             <div class="carousel-courses-2">
@@ -420,11 +423,12 @@
             <button class="custom-next-arrow-3 " aria-label="Next">
                 <img src="{{asset('images/arrow/right.png')}}" alt="Next" class=" button-shake"/>
             </button>
-            <div class="row gx-0 img-course pt-4 montserrat-bold product-pc-title"
-                 style="font-size: 25px; color: #25AAE2; padding: 0 4%">
-                <div class="col-lg-4 col-md-12">Công tắc ổ cắm</div>
-                <div class="col-lg-8 col-md-12">
-                    <div class="horizontal-line d-none d-md-block"></div>
+            <div class="row gx-0 img-course montserrat-bold mt-4 product-pc-title"
+                 style="font-size: 25px; color: #25AAE2; padding: 0 ">
+                <div
+                    class="d-flex align-content-center justify-content-center img-course montserrat-bold btn-block pb-2"
+                    style="font-size: 29px; color: #25AAE2; box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2);">
+                    <div class="" style=" border-bottom: 4px solid #25AAE2; padding-bottom: 1px;">CÔNG TẮC Ổ CẮM</div>
                 </div>
             </div>
             <div class="carousel-courses-3">
