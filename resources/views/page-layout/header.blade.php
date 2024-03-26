@@ -174,7 +174,7 @@
             event.preventDefault(); // Ngăn chặn hành động mặc định của nút
 
             // Tính toán vị trí cần cuộn đến (50% chiều cao của màn hình)
-            var scrollToPosition = $(document).height() / 5;
+            var scrollToPosition = $(document).height() / 5.8;
 
             // Thực hiện cuộn mềm mại đến vị trí đã tính toán
             $('html, body').animate({
@@ -185,7 +185,7 @@
             event.preventDefault(); // Ngăn chặn hành động mặc định của nút
 
             // Tính toán vị trí cần cuộn đến (50% chiều cao của màn hình)
-            var scrollToPosition = $(document).height() / 3.8;
+            var scrollToPosition = $(document).height() / 3.6;
 
             // Thực hiện cuộn mềm mại đến vị trí đã tính toán
             $('html, body').animate({
@@ -196,7 +196,7 @@
             event.preventDefault(); // Ngăn chặn hành động mặc định của nút
 
             // Tính toán vị trí cần cuộn đến (50% chiều cao của màn hình)
-            var scrollToPosition = $(document).height() / 2.9;
+            var scrollToPosition = $(document).height() / 2.2;
 
             // Thực hiện cuộn mềm mại đến vị trí đã tính toán
             $('html, body').animate({
@@ -207,7 +207,7 @@
             event.preventDefault(); // Ngăn chặn hành động mặc định của nút
 
             // Tính toán vị trí cần cuộn đến (50% chiều cao của màn hình)
-            var scrollToPosition = $(document).height() / 2.2;
+            var scrollToPosition = $(document).height() / 1.8;
 
             // Thực hiện cuộn mềm mại đến vị trí đã tính toán
             $('html, body').animate({
@@ -218,7 +218,7 @@
             event.preventDefault(); // Ngăn chặn hành động mặc định của nút
 
             // Tính toán vị trí cần cuộn đến (50% chiều cao của màn hình)
-            var scrollToPosition = $(document).height() / 1.75;
+            var scrollToPosition = $(document).height() / 1.5;
 
             // Thực hiện cuộn mềm mại đến vị trí đã tính toán
             $('html, body').animate({
