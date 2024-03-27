@@ -260,10 +260,10 @@
         </script>
 
         <div class="slick-carousel position-relative">
-            <button class="custom-prev-arrow-1 " aria-label="Previous">
+            <button class="custom-prev-arrow-1 product-pc-title" aria-label="Previous">
                 <img src="{{asset('images/arrow/left.png')}}" alt="Previous" class=" button-shake"/>
             </button>
-            <button class="custom-next-arrow-1 " aria-label="Next">
+            <button class="custom-next-arrow-1  product-pc-title" aria-label="Next">
                 <img src="{{asset('images/arrow/right.png')}}" alt="Next" class=" button-shake"/>
             </button>
             <div class="row gx-0 img-course montserrat-bold mt-4 product-pc-title"
