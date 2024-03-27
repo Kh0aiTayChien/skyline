@@ -494,6 +494,156 @@
                 });
             });
         </script>
+
+
+
+        <div class="slick-carousel position-relative ">
+            <button class="custom-prev-arrow-4 " aria-label="Previous">
+                <img src="{{asset('images/arrow/left.png')}}" alt="Previous" class=" button-shake"/>
+            </button>
+            <button class="custom-next-arrow-4 " aria-label="Next">
+                <img src="{{asset('images/arrow/right.png')}}" alt="Next" class=" button-shake"/>
+            </button>
+            <div class="row gx-0 img-course montserrat-bold mt-5 "
+                 style="font-size: 25px; color: #25AAE2; padding: 0 ">
+                <div
+                    class="d-flex align-content-center justify-content-center img-course montserrat-bold pb-2 pt-4"
+                    style="font-size: 51px; color: #25AAE2;">
+                    <div class="" style="">CATALOGUE</div>
+                </div>
+            </div>
+            <div class="carousel-courses-4" style="padding: 0 4vh">
+                <div class=" d-flex justify-content-center" style="height: 45vh; ">
+                    <div class="w-100 d-flex justify-content-center pt-3" style="background-color: #F5F5F5">
+                        <a target="_blank" href="{{asset('pdf/i7smart0711.pdf')}}" style="text-decoration: unset">
+                            <img src="{{asset('pdf/simoni7.png')}}" alt="" class="img-fluid"
+                                 style="object-fit: cover; height: 80%">
+                            <div class=" montserrat-bold  pb-2 pt-4"
+                                 style="font-size: 22px; color: #25AAE2;">
+                                <div class="text-center" style=" border-bottom: 4px solid #25AAE2; padding-bottom: 1px;">Cartalouge i7 Smart</div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="d-flex justify-content-center" style="height: 45vh; ">
+                    <div class="w-100 d-flex justify-content-center pt-3" style="background-color: #F5F5F5">
+                        <a target="_blank" href="{{asset('pdf/CatalogueSimonProject2024.pdf')}}" style="text-decoration: unset">
+                            <img src="{{asset('pdf/switch.png')}}" alt="" class="img-fluid"
+                                 style="object-fit: cover; height: 80%">
+                            <div class=" montserrat-bold  pb-2 pt-4"
+                                 style="font-size: 20px; color: #25AAE2;">
+                                <div class="text-center" style=" border-bottom: 4px solid #25AAE2; padding-bottom: 1px;">SWITCHES & SOCKETS</div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="d-flex justify-content-center" style="height: 45vh; ">
+                    <div class="w-100 d-flex justify-content-center pt-3" style="background-color: #F5F5F5">
+                        <a target="_blank" href="{{asset('pdf/Catalogue-Lumi.pdf')}}" style="text-decoration: unset">
+                            <img src="{{asset('pdf/lumi.png')}}" alt="" class="img-fluid"
+                                 style="object-fit: cover; height: 80%;">
+                            <div class=" montserrat-bold  pb-2 pt-4"
+                                 style="font-size: 20px; color: #25AAE2;">
+                                <div class="text-center" style=" border-bottom: 4px solid #25AAE2; padding-bottom: 1px;">Nhà thông minh Lumi</div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class=" d-flex justify-content-center" style="height: 45vh; ">
+                    <div class="w-100 d-flex justify-content-center pt-3" style="background-color: #F5F5F5">
+                        <a target="_blank" href="{{asset('pdf/i7smart0711.pdf')}}" style="text-decoration: unset">
+                            <img src="{{asset('pdf/simoni7.png')}}" alt="" class="img-fluid"
+                                 style="object-fit: cover; height: 80%">
+                            <div class=" montserrat-bold  pb-2 pt-4"
+                                 style="font-size: 22px; color: #25AAE2;">
+                                <div class="text-center" style=" border-bottom: 4px solid #25AAE2; padding-bottom: 1px;">Cartalouge i7 Smart</div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="d-flex justify-content-center" style="height: 45vh; ">
+                    <div class="w-100 d-flex justify-content-center pt-3" style="background-color: #F5F5F5">
+                        <a target="_blank" href="{{asset('pdf/CatalogueSimonProject2024.pdf')}}" style="text-decoration: unset">
+                            <img src="{{asset('pdf/switch.png')}}" alt="" class="img-fluid"
+                                 style="object-fit: cover; height: 80%">
+                            <div class=" montserrat-bold  pb-2 pt-4"
+                                 style="font-size: 20px; color: #25AAE2;">
+                                <div class="text-center" style=" border-bottom: 4px solid #25AAE2; padding-bottom: 1px;">SWITCHES & SOCKETS</div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="d-flex justify-content-center" style="height: 45vh; ">
+                    <div class="w-100 d-flex justify-content-center pt-3" style="background-color: #F5F5F5">
+                        <a target="_blank" href="{{asset('pdf/Catalogue-Lumi.pdf')}}" style="text-decoration: unset">
+                            <img src="{{asset('pdf/lumi.png')}}" alt="" class="img-fluid"
+                                 style="object-fit: cover; height: 80%;">
+                            <div class=" montserrat-bold  pb-2 pt-4"
+                                 style="font-size: 22px; color: #25AAE2;">
+                                <div class="text-center" style=" border-bottom: 4px solid #25AAE2; padding-bottom: 1px;">Nhà thông minh Lumi</div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="d-flex align-content-center justify-content-center mb-5"style="bottom: 22vh">
+            <div class="btn btn-outline-info p-1 border-3" style="border-color: #25AAE2">
+                <div class="btn text-white montserrat-extrabold btn-long document" style="background-color: #25AAE2; font-size: 15px">
+                    XEM THÊM TÀI LIỆU
+                </div>
+            </div>
+        </div>
+        <script>
+            $(".document").click(function(){
+                window.location.href = "/tai-lieu";
+            });
+        </script>
+        <script>
+            $(document).ready(function () {
+                $('.carousel-courses-4').slick({
+                    infinite: true,
+                    speed: 900,
+                    slidesToShow: 3,
+                    slidesToScroll: 1,
+                    variableWidth: false,
+                    dots: true,
+                    prevArrow: $('.custom-prev-arrow-4'),
+                    nextArrow: $('.custom-next-arrow-4'),
+                    responsive: [
+                        {
+                            breakpoint: 1324,
+                            settings: {
+                                slidesToShow: 3,
+                                slidesToScroll: 3,
+                            }
+                        },
+                        {
+                            breakpoint: 800,
+                            settings: {
+                                slidesToShow: 2,
+                                slidesToScroll: 2
+                            }
+                        },
+                        {
+                            breakpoint: 480,
+                            settings: {
+                                slidesToShow: 1,
+                                slidesToScroll: 1,
+                                variableWidth: false,
+                            }
+                        }
+                    ]
+                });
+            });
+        </script>
+
+
     </div>
 </div>
 <style>

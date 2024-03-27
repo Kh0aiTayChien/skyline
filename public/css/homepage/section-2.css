@@ -184,6 +184,29 @@
     z-index: 2;
 }
 
+.custom-next-arrow-4,
+.custom-prev-arrow-4
+{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    cursor: pointer;
+    scale: 75%;
+    z-index: 2;
+}
+
+.custom-prev-arrow-4
+{
+    left: -4rem;
+}
+
+.custom-next-arrow-4
+{
+    right: -4rem;
+}
+
 .custom-prev-arrow-1,
 .custom-prev-arrow-2,
 .custom-prev-arrow-3
@@ -266,7 +289,7 @@
 }
 
 .btn-long {
-    width: 200px;
+    width: 250px;
 }
 
 .section-2-mb {
@@ -280,7 +303,8 @@
     .custom-prev-arrow-course,
     .custom-prev-arrow-1,
     .custom-prev-arrow-2,
-    .custom-prev-arrow-3
+    .custom-prev-arrow-3,
+    .custom-prev-arrow-4
     {
         left: -1rem;
         opacity: 50%;
@@ -290,7 +314,8 @@
     .custom-next-arrow-course,
     .custom-next-arrow-1,
     .custom-next-arrow-2,
-    .custom-next-arrow-3
+    .custom-next-arrow-3,
+    .custom-next-arrow-4
     {
         right: -1rem;
         opacity: 50%;
