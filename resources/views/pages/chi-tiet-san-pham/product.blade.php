@@ -34,7 +34,13 @@
                 </div>
                 <div class=" p-1 border-3 ms-3 mb-5" style="border-color: #25AAE2">
                     <div class=" montserrat-bold ps-4" style="color: #25AAE2; font-size: 3.09vw">
-                        {{ number_format($product->price, 0, ',', '.') }}</div></div>
+                        @if ($product->price == 0)
+                            Liên hệ
+                        @else
+                            {{ number_format($product->price, 0, ',', '.') }}
+                        @endif
+                    </div>
+                </div>
 
                 <div class=" p-1  ms-3" style="border-color: #25AAE2">
                     <div class=" montserrat-bold px-4" style="font-size: 25px">
@@ -60,7 +66,12 @@
                 </div>
                 <div class=" p-1 border-3 mb-3" style="border-color: #25AAE2">
                     <div class=" montserrat-bold  text-center" style="color: #25AAE2; font-size: 29px">
-                        {{ number_format($product->price, 0, ',', '.') }}</div>
+                        @if ($product->price == 0)
+                            Liên hệ
+                        @else
+                            {{ number_format($product->price, 0, ',', '.') }}
+                        @endif
+                    </div>
                 </div>
                 <div class="  border-3 mb-3" style="border-color: #25AAE2">
                     <div class=" montserrat-bold " style="font-size: 20px">

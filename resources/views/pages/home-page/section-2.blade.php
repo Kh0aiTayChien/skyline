@@ -56,7 +56,13 @@
                                     <p class="card-text text-start mulish-black text-white" style="height: 3rem">
                                         <strong>{{\Illuminate\Support\Str::limit($course->name,30)}}</strong></p>
                                     <p class="card-text text-start mulish-black text-white" style="font-size: 23px">
-                                        <strong> {{ number_format($course->price, 0, ',', '.') }}</strong></p>
+                                        <strong>
+                                            @if ($course->price == 0)
+                                                Liên hệ
+                                            @else
+                                                {{ number_format($course->price, 0, ',', '.') }}
+                                            @endif
+                                        </strong></p>
                                     <div class="d-flex align-content-center justify-content-start ">
                                         <a target="_blank"
                                            href="{{route('homepage.product.show',['slug' => $course->slug])}}"
@@ -90,7 +96,13 @@
                                     <p class="card-text text-start mulish-black text-white" style="height: 3rem">
                                         <strong>{{\Illuminate\Support\Str::limit($course->name,30)}}</strong></p>
                                     <p class="card-text text-start mulish-black text-white" style="font-size: 23px">
-                                        <strong> {{ number_format($course->price, 0, ',', '.') }}</strong></p>
+                                        <strong>
+                                            @if ($course->price == 0)
+                                                Liên hệ
+                                            @else
+                                                {{ number_format($course->price, 0, ',', '.') }}
+                                            @endif
+                                        </strong></p>
                                     <div class="d-flex align-content-center justify-content-start ">
                                         <a target="_blank"
                                            href="{{route('homepage.product.show',['slug' => $course->slug])}}"
@@ -125,7 +137,13 @@
                                     <p class="card-text text-start mulish-black text-white" style="height: 3rem">
                                         <strong>{{\Illuminate\Support\Str::limit($course->name,30)}}</strong></p>
                                     <p class="card-text text-start mulish-black text-white" style="font-size: 23px">
-                                        <strong> {{ number_format($course->price, 0, ',', '.') }}</strong></p>
+                                        <strong>
+                                            @if ($course->price == 0)
+                                                Liên hệ
+                                            @else
+                                                {{ number_format($course->price, 0, ',', '.') }}
+                                            @endif
+                                        </strong></p>
                                     <div class="d-flex align-content-center justify-content-start ">
                                         <a target="_blank"
                                            href="{{route('homepage.product.show',['slug' => $course->slug])}}"
@@ -160,7 +178,13 @@
                                     <p class="card-text text-start mulish-black text-white" style="height: 3rem">
                                         <strong>{{\Illuminate\Support\Str::limit($course->name,30)}}</strong></p>
                                     <p class="card-text text-start mulish-black text-white" style="font-size: 23px">
-                                        <strong> {{ number_format($course->price, 0, ',', '.') }}</strong></p>
+                                        <strong>
+                                            @if ($course->price == 0)
+                                                Liên hệ
+                                            @else
+                                                {{ number_format($course->price, 0, ',', '.') }}
+                                            @endif
+                                        </strong></p>
                                     <div class="d-flex align-content-center justify-content-start ">
                                         <a target="_blank"
                                            href="{{route('homepage.product.show',['slug' => $course->slug])}}"
@@ -206,7 +230,14 @@
                                 <p class="card-text text-start mulish-black text-white" style="height: 3rem">
                                     <strong>{{\Illuminate\Support\Str::limit($course->name,30)}}</strong></p>
                                 <p class="card-text text-start mulish-black text-white" style="font-size: 23px">
-                                    <strong> {{ number_format($course->price, 0, ',', '.') }}</strong></p>
+                                    <strong>
+                                        @if ($course->price == 0)
+                                            Liên hệ
+                                        @else
+                                            {{ number_format($course->price, 0, ',', '.') }}
+                                        @endif
+                                    </strong>
+                                </p>
                                 <div class="d-flex align-content-center justify-content-start ">
                                     <a target="_blank"
                                        href="{{route('homepage.product.show',['slug' => $course->slug])}}"
@@ -285,7 +316,11 @@
                                 <p class="card-text text-start mulish-black text-white" style="height: 3rem">
                                     <strong>{{\Illuminate\Support\Str::limit($course->name,30)}}</strong></p>
                                 <p class="card-text text-start mulish-black text-white" style="font-size: 23px">
-                                    <strong> {{ number_format($course->price, 0, ',', '.') }}</strong></p>
+                                    <strong>     @if ($course->price == 0)
+                                            Liên hệ
+                                        @else
+                                            {{ number_format($course->price, 0, ',', '.') }}
+                                        @endif</strong></p>
                                 <div class="d-flex align-content-center justify-content-start ">
                                     <a target="_blank"
                                        href="{{route('homepage.product.show',['slug' => $course->slug])}}"
@@ -363,7 +398,11 @@
                                 <p class="card-text text-start mulish-black text-white" style="height: 3rem">
                                     <strong>{{\Illuminate\Support\Str::limit($course->name,30)}}</strong></p>
                                 <p class="card-text text-start mulish-black text-white" style="font-size: 23px">
-                                    <strong> {{ number_format($course->price, 0, ',', '.') }}</strong></p>
+                                    <strong>    @if ($course->price == 0)
+                                            Liên hệ
+                                        @else
+                                            {{ number_format($course->price, 0, ',', '.') }}
+                                        @endif</strong></p>
                                 <div class="d-flex align-content-center justify-content-start ">
                                     <a target="_blank"
                                        href="{{route('homepage.product.show',['slug' => $course->slug])}}"
@@ -442,7 +481,13 @@
                                 <p class="card-text text-start mulish-black text-white" style="height: 3rem">
                                     <strong>{{\Illuminate\Support\Str::limit($course->name,30)}}</strong></p>
                                 <p class="card-text text-start mulish-black text-white" style="font-size: 23px">
-                                    <strong> {{ number_format($course->price, 0, ',', '.') }}</strong></p>
+                                    <strong>
+                                        @if ($course->price == 0)
+                                            Liên hệ
+                                        @else
+                                            {{ number_format($course->price, 0, ',', '.') }}
+                                        @endif
+                                    </strong></p>
                                 <div class="d-flex align-content-center justify-content-start ">
                                     <a target="_blank"
                                        href="{{route('homepage.product.show',['slug' => $course->slug])}}"

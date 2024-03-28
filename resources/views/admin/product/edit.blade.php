@@ -288,7 +288,7 @@
                                 </div>
                                 <div class="col-lg-4">
                                     <div class="form-group focused">
-                                        <label class="form-control-label" for="title">Giá cả<span
+                                        <label class="form-control-label" for="title">Giá cả (Điền 0 sẽ trở thành "Liên hệ")<span
                                                 class="small text-danger">*</span></label>
                                         <input type="text" id="price" class="form-control" name="price"
                                                placeholder="Giá sản phẩm" value="{{$product->price}}">
