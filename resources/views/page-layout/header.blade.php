@@ -1,6 +1,6 @@
 <div class="header shadow-effect sticky-top d-none d-md-block montserrat-extrabold ">
     <div class="header-content d-flex align-content-center " style="">
-        <img class="header-logo" src="{{asset('images/header/LOGO.png')}}" alt="LOGO" style="cursor: pointer; scale: 60%"; >
+        <img class="header-logo" src="{{asset('images/header/LOGO1.png')}}" alt="LOGO" style="cursor: pointer; scale: 60%"; >
         <div class="header-list d-flex justify-content-end align-content-center row gx-0" >
             <div class="col-2 text-center no-opacity">
                 <button class="btn-transparent px-3 intro" style="color: #25AAE2">GIỚI THIỆU</button>
@@ -8,17 +8,17 @@
             <div class="col-2 text-center no-opacity position-relative">
                 <button class="btn-transparent px-3 product-sc-product"style="color: #25AAE2">SẢN PHẨM</button>
                 <div class="position-absolute hide_button" style=" margin-top: 3vh; background-color: white">
-                    <button class="product-sc text-center btn-white btn-long py-2"style="color: #25AAE2;">ĐÈN DOWNLIGHT</button>
+                    <button class="product-sc text-center btn-white btn-long py-2"style="color: #25AAE2;">FPT SMART HOME</button>
                 </div>
                 <div class="position-absolute hide_button" style=" margin-top: 7vh; ">
-                    <button class="product-sc-s text-center btn-white btn-long py-2"style="color: #25AAE2;">ĐÈN SPOTLIGHT</button>
+                    <button class="product-sc-s text-center btn-white btn-long py-2"style="color: #25AAE2;">VIMAR</button>
                 </div>
                 <div class="position-absolute hide_button" style=" margin-top: 11vh; ">
-                    <button class="product-sc-r text-center btn-white btn-long py-2"style="color: #25AAE2;">ĐÈN RAY NAM CHÂM </button>
+                    <button class="product-sc-r text-center btn-white btn-long py-2"style="color: #25AAE2;">CÁC SẢN PHẨM KHÁC</button>
                 </div>
-                <div class="position-absolute hide_button" style=" margin-top: 15vh; ">
-                    <button class="product-sc-c text-center btn-white btn-long py-2"style="color: #25AAE2;">CÔNG TẮC Ổ CẮM</button>
-                </div>
+{{--                <div class="position-absolute hide_button" style=" margin-top: 15vh; ">--}}
+{{--                    <button class="product-sc-c text-center btn-white btn-long py-2"style="color: #25AAE2;">CÁC SẢN PHẨM KHÁC</button>--}}
+{{--                </div>--}}
             </div>
             <div class="col-2 text-center no-opacity">
                 <button class="btn-transparent px-3 document" style="color: #25AAE2">TÀI LIỆU</button>
@@ -168,49 +168,107 @@
 </style>
 <script>
     $(document).ready(function() {
+        // $('.intro').click(function(event) {
+        //     event.preventDefault(); // Ngăn chặn hành động mặc định của nút
+        //
+        //     // Tính toán vị trí cần cuộn đến (50% chiều cao của màn hình)
+        //     var scrollToPosition = $(document).height() / 5.8;
+        //
+        //     // Thực hiện cuộn mềm mại đến vị trí đã tính toán
+        //     $('html, body').animate({
+        //         scrollTop: scrollToPosition
+        //     }, 500); // Thời gian cuộn (trong mili giây)
+        // });
         $('.intro').click(function(event) {
             event.preventDefault(); // Ngăn chặn hành động mặc định của nút
 
-            // Tính toán vị trí cần cuộn đến (50% chiều cao của màn hình)
-            var scrollToPosition = $(document).height() / 5.8;
+            // Chỉ định ID của phần tử mà bạn muốn cuộn tới
+            var targetId = 'phanTu1';
 
-            // Thực hiện cuộn mềm mại đến vị trí đã tính toán
-            $('html, body').animate({
-                scrollTop: scrollToPosition
-            }, 500); // Thời gian cuộn (trong mili giây)
+            // Chiều cao của thanh cố định (nếu có)
+            var fixedHeight = 100; // Đổi giá trị này thành chiều cao của thanh cố định
+
+            // Kiểm tra xem phần tử có tồn tại không
+            if ($('#' + targetId).length) {
+                // Tính toán vị trí của phần tử đích và điều chỉnh để không bị che lấp
+                var scrollToPosition = $('#' + targetId).offset().top - fixedHeight;
+
+                // Thực hiện cuộn mềm mại đến vị trí của phần tử đích
+                $('html, body').animate({
+                    scrollTop: scrollToPosition
+                }, 500); // Thời gian cuộn (trong mili giây)
+            }
         });
+        // $('.product-sc').click(function(event) {
+        //     event.preventDefault(); // Ngăn chặn hành động mặc định của nút
+        //
+        //     // Tính toán vị trí cần cuộn đến (50% chiều cao của màn hình)
+        //     var scrollToPosition = $(document).height() / 3.6;
+        //
+        //     // Thực hiện cuộn mềm mại đến vị trí đã tính toán
+        //     $('html, body').animate({
+        //         scrollTop: scrollToPosition
+        //     }, 500); // Thời gian cuộn (trong mili giây)
+        // });
         $('.product-sc').click(function(event) {
             event.preventDefault(); // Ngăn chặn hành động mặc định của nút
 
-            // Tính toán vị trí cần cuộn đến (50% chiều cao của màn hình)
-            var scrollToPosition = $(document).height() / 3.6;
+            // Chỉ định ID của phần tử mà bạn muốn cuộn tới
+            var targetId = 'phanTu2';
 
-            // Thực hiện cuộn mềm mại đến vị trí đã tính toán
-            $('html, body').animate({
-                scrollTop: scrollToPosition
-            }, 500); // Thời gian cuộn (trong mili giây)
+            // Chiều cao của thanh cố định (nếu có)
+            var fixedHeight = 100; // Đổi giá trị này thành chiều cao của thanh cố định
+
+            // Kiểm tra xem phần tử có tồn tại không
+            if ($('#' + targetId).length) {
+                // Tính toán vị trí của phần tử đích và điều chỉnh để không bị che lấp
+                var scrollToPosition = $('#' + targetId).offset().top - fixedHeight;
+
+                // Thực hiện cuộn mềm mại đến vị trí của phần tử đích
+                $('html, body').animate({
+                    scrollTop: scrollToPosition
+                }, 500); // Thời gian cuộn (trong mili giây)
+            }
         });
         $('.product-sc-s').click(function(event) {
             event.preventDefault(); // Ngăn chặn hành động mặc định của nút
 
-            // Tính toán vị trí cần cuộn đến (50% chiều cao của màn hình)
-            var scrollToPosition = $(document).height() / 2.2;
+            // Chỉ định ID của phần tử mà bạn muốn cuộn tới
+            var targetId = 'phanTu3';
 
-            // Thực hiện cuộn mềm mại đến vị trí đã tính toán
-            $('html, body').animate({
-                scrollTop: scrollToPosition
-            }, 500); // Thời gian cuộn (trong mili giây)
+            // Chiều cao của thanh cố định (nếu có)
+            var fixedHeight = 100; // Đổi giá trị này thành chiều cao của thanh cố định
+
+            // Kiểm tra xem phần tử có tồn tại không
+            if ($('#' + targetId).length) {
+                // Tính toán vị trí của phần tử đích và điều chỉnh để không bị che lấp
+                var scrollToPosition = $('#' + targetId).offset().top - fixedHeight;
+
+                // Thực hiện cuộn mềm mại đến vị trí của phần tử đích
+                $('html, body').animate({
+                    scrollTop: scrollToPosition
+                }, 500); // Thời gian cuộn (trong mili giây)
+            }
         });
         $('.product-sc-r').click(function(event) {
             event.preventDefault(); // Ngăn chặn hành động mặc định của nút
 
-            // Tính toán vị trí cần cuộn đến (50% chiều cao của màn hình)
-            var scrollToPosition = $(document).height() / 1.8;
+            // Chỉ định ID của phần tử mà bạn muốn cuộn tới
+            var targetId = 'phanTu4';
 
-            // Thực hiện cuộn mềm mại đến vị trí đã tính toán
-            $('html, body').animate({
-                scrollTop: scrollToPosition
-            }, 500); // Thời gian cuộn (trong mili giây)
+            // Chiều cao của thanh cố định (nếu có)
+            var fixedHeight = 200; // Đổi giá trị này thành chiều cao của thanh cố định
+
+            // Kiểm tra xem phần tử có tồn tại không
+            if ($('#' + targetId).length) {
+                // Tính toán vị trí của phần tử đích và điều chỉnh để không bị che lấp
+                var scrollToPosition = $('#' + targetId).offset().top - fixedHeight;
+
+                // Thực hiện cuộn mềm mại đến vị trí của phần tử đích
+                $('html, body').animate({
+                    scrollTop: scrollToPosition
+                }, 500); // Thời gian cuộn (trong mili giây)
+            }
         });
         $('.product-sc-c').click(function(event) {
             event.preventDefault(); // Ngăn chặn hành động mặc định của nút

@@ -2,7 +2,7 @@
     <div class="courses">
         <div
             class="d-md-flex align-content-center justify-content-center img-course pt-4 montserrat-bold d-none d-md-block"
-            style="font-size: 1.5vw; color: #25AAE2">
+            style="font-size: 1.5vw; color: #25AAE2" id="phanTu1">
             Về chúng tôi
         </div>
         <div class="d-flex align-content-center justify-content-center img-course pt-4 montserrat-bold d-md-none"
@@ -11,25 +11,23 @@
         </div>
         <div class="d-none d-md-flex align-content-center justify-content-center img-course cabin-medium px-5 mt-3 mb-4"
              style="font-size: 1rem; text-align: justify">
-            Skylight luôn tự hào là một trong những đơn vị đi đầu trong lĩnh vực cung cấp giải pháp và thiết bị công
-            nghệ Led chiếu sáng thân thiện với môi trường được nhiều đối tác đánh giá cao.
-             Các sản phẩm và dịch vụ của Skyline được ứng dụng rộng rãi từ các công trình lớn như các khu công nghiệp,
-            khu đô thị, các trung tâm thương mại, khu vui chơi giải trí, siêu thị, quảng trường, bến bãi, nhà xưởng,
-            showroom cho đến các công trình dân sinh như nhà ở, trường học, bệnh viện,… trên khắp cả nước. Do đó, khi có
-            nhu cầu về chiếu sáng công nghệ LED, Quý khách hàng hãy liên hệ với chúng tôi để được tư vấn tận tình, được
-            cung cấp những sản phẩm đèn LED hàng đầu, cũng như được sử dụng các dịch vụ hỗ trợ, kỹ thuật và công nghệ
-            tốt nhất.
+            ThanhNamSmarthome luôn tự hào là một trong những đơn vị đi đầu trong lĩnh vực cung cấp giải pháp nhà
+            thông minh và thiết bị công nghệ Led chiếu sáng thân thiện với môi trường được nhiều đối tác đánh giá cao.
+            Các sản phẩm và dịch vụ của Skyline được ứng dụng rộng rãi từ các công trình lớn như các khu
+            công nghiệp, khu đô thị, các trung tâm thương mại, khu vui chơi giải trí, siêu thị, quảng trường, bến bãi,
+            nhà xưởng, showroom cho đến các công trình dân sinh như nhà ở, trường học, bệnh viện,… trên khắp cả nước.
+            Do đó, khi có nhu cầu về sự tiện lợn, hiện đại của nhà thông minh và thiết bị chiếu sáng công nghệ LED.
+            Quý khách hàng hãy liên hệ với chúng tôi để được tư vấn, đặt hàng và lắp đặt.
         </div>
         <div class="d-flex d-md-none align-content-center justify-content-center img-course cabin-medium px-3"
              style="font-size: 1rem; text-align: justify">
-            Skylight luôn tự hào là một trong những đơn vị đi đầu trong lĩnh vực cung cấp giải pháp và thiết bị công
-            nghệ Led chiếu sáng thân thiện với môi trường được nhiều đối tác đánh giá cao.
-             Các sản phẩm và dịch vụ của Skyline được ứng dụng rộng rãi từ các công trình lớn như các khu công nghiệp,
-            khu đô thị, các trung tâm thương mại, khu vui chơi giải trí, siêu thị, quảng trường, bến bãi, nhà xưởng,
-            showroom cho đến các công trình dân sinh như nhà ở, trường học, bệnh viện,… trên khắp cả nước. Do đó, khi có
-            nhu cầu về chiếu sáng công nghệ LED, Quý khách hàng hãy liên hệ với chúng tôi để được tư vấn tận tình, được
-            cung cấp những sản phẩm đèn LED hàng đầu, cũng như được sử dụng các dịch vụ hỗ trợ, kỹ thuật và công nghệ
-            tốt nhất.
+            ThanhNamSmarthome luôn tự hào là một trong những đơn vị đi đầu trong lĩnh vực cung cấp giải pháp nhà
+            thông minh và thiết bị công nghệ Led chiếu sáng thân thiện với môi trường được nhiều đối tác đánh giá cao.
+            Các sản phẩm và dịch vụ của Skyline được ứng dụng rộng rãi từ các công trình lớn như các khu
+            công nghiệp, khu đô thị, các trung tâm thương mại, khu vui chơi giải trí, siêu thị, quảng trường, bến bãi,
+            nhà xưởng, showroom cho đến các công trình dân sinh như nhà ở, trường học, bệnh viện,… trên khắp cả nước.
+            Do đó, khi có nhu cầu về sự tiện lợn, hiện đại của nhà thông minh và thiết bị chiếu sáng công nghệ LED.
+            Quý khách hàng hãy liên hệ với chúng tôi để được tư vấn, đặt hàng và lắp đặt.
         </div>
         <div class="product-mobile-title">
             <div class="d-flex align-content-center justify-content-center img-course montserrat-bold "
@@ -37,11 +35,11 @@
                 Sản phẩm
             </div>
 
-            <div class="mb-3 mt-4">
+            <div class="mb-3 mt-4" id="phanTu2">
                 <div
                     class="d-flex align-content-center justify-content-center img-course montserrat-bold btn-block pb-2"
                     style="font-size: 29px; color: #25AAE2; box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2);">
-                    <div class="" style=" border-bottom: 4px solid #25AAE2; padding-bottom: 1px;">ĐÈN DOWNLIGHT</div>
+                    <div class="" style=" border-bottom: 4px solid #25AAE2; padding-bottom: 1px;" >FPT SMART HOME</div>
                 </div>
             </div>
             <div class="row gy-4 px-5">
@@ -77,11 +75,11 @@
                 @endforeach
             </div>
 
-            <div class="mb-3 mt-4">
+            <div class="mb-3 mt-4" id="phanTu3">
                 <div
                     class="d-flex align-content-center justify-content-center img-course montserrat-bold btn-block pb-2"
                     style="font-size: 29px; color: #25AAE2; box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2);">
-                    <div class="" style=" border-bottom: 4px solid #25AAE2; padding-bottom: 1px;">ĐÈN SPOTLIGHT</div>
+                    <div class="" style=" border-bottom: 4px solid #25AAE2; padding-bottom: 1px;">VIMAR</div>
                 </div>
             </div>
             <div class="row gy-4 px-5">
@@ -121,11 +119,11 @@
                 <div
                     class="d-flex align-content-center justify-content-center img-course montserrat-bold btn-block pb-2"
                     style="font-size: 29px; color: #25AAE2; box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2);">
-                    <div class="" style=" border-bottom: 4px solid #25AAE2; padding-bottom: 1px;">ĐÈN RAY NAM CHÂM</div>
+                    <div class="" style=" border-bottom: 4px solid #25AAE2; padding-bottom: 1px;">SẢN PHẨM KHÁC</div>
                 </div>
             </div>
 
-            <div class="row gy-4 px-5">
+            <div class="row gy-4 px-5" id="phanTu4">
                 @foreach($courses2 as $course)
                     <div class="col-3">
                         <div class="d-flex justify-content-center">
@@ -158,46 +156,46 @@
                 @endforeach
             </div>
 
-            <div class="mb-3 mt-4">
-                <div
-                    class="d-flex align-content-center justify-content-center img-course montserrat-bold btn-block pb-2"
-                    style="font-size: 29px; color: #25AAE2; box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2);">
-                    <div class="" style=" border-bottom: 4px solid #25AAE2; padding-bottom: 1px;">CÔNG TẮC Ổ CẮM</div>
-                </div>
-            </div>
+{{--            <div class="mb-3 mt-4">--}}
+{{--                <div--}}
+{{--                    class="d-flex align-content-center justify-content-center img-course montserrat-bold btn-block pb-2"--}}
+{{--                    style="font-size: 29px; color: #25AAE2; box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2);">--}}
+{{--                    <div class="" style=" border-bottom: 4px solid #25AAE2; padding-bottom: 1px;">CÔNG TẮC Ổ CẮM</div>--}}
+{{--                </div>--}}
+{{--            </div>--}}
 
-            <div class="row gy-4 px-5 mb-4">
-                @foreach($courses3 as $course)
-                    <div class="col-3">
-                        <div class="d-flex justify-content-center">
-                            <div class="card rounded-custom shadow-effect"
-                                 style="width:20rem; height: 70% ">
-                                <img class="card-img-top img-fluid object-cover " src="{{$course->image}}"
-                                     alt="Card image" style="height: 10rem">
-                                <div class="card-body" style="background-color: #25AAE2">
-                                    <p class="card-text text-start mulish-black text-white" style="height: 3rem">
-                                        <strong>{{\Illuminate\Support\Str::limit($course->name,30)}}</strong></p>
-                                    <p class="card-text text-start mulish-black text-white" style="font-size: 23px">
-                                        <strong>
-                                            @if ($course->price == 0)
-                                                Liên hệ
-                                            @else
-                                                {{ number_format($course->price, 0, ',', '.') }}
-                                            @endif
-                                        </strong></p>
-                                    <div class="d-flex align-content-center justify-content-start ">
-                                        <a target="_blank"
-                                           href="{{route('homepage.product.show',['slug' => $course->slug])}}"
-                                           class=" btn-sm mb-3  btn-long button-shake montserrat"
-                                           style="color: #E9D5A2; text-decoration: none;">XEM
-                                            CHI TIẾT</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                @endforeach
-            </div>
+{{--            <div class="row gy-4 px-5 mb-4">--}}
+{{--                @foreach($courses3 as $course)--}}
+{{--                    <div class="col-3">--}}
+{{--                        <div class="d-flex justify-content-center">--}}
+{{--                            <div class="card rounded-custom shadow-effect"--}}
+{{--                                 style="width:20rem; height: 70% ">--}}
+{{--                                <img class="card-img-top img-fluid object-cover " src="{{$course->image}}"--}}
+{{--                                     alt="Card image" style="height: 10rem">--}}
+{{--                                <div class="card-body" style="background-color: #25AAE2">--}}
+{{--                                    <p class="card-text text-start mulish-black text-white" style="height: 3rem">--}}
+{{--                                        <strong>{{\Illuminate\Support\Str::limit($course->name,30)}}</strong></p>--}}
+{{--                                    <p class="card-text text-start mulish-black text-white" style="font-size: 23px">--}}
+{{--                                        <strong>--}}
+{{--                                            @if ($course->price == 0)--}}
+{{--                                                Liên hệ--}}
+{{--                                            @else--}}
+{{--                                                {{ number_format($course->price, 0, ',', '.') }}--}}
+{{--                                            @endif--}}
+{{--                                        </strong></p>--}}
+{{--                                    <div class="d-flex align-content-center justify-content-start ">--}}
+{{--                                        <a target="_blank"--}}
+{{--                                           href="{{route('homepage.product.show',['slug' => $course->slug])}}"--}}
+{{--                                           class=" btn-sm mb-3  btn-long button-shake montserrat"--}}
+{{--                                           style="color: #E9D5A2; text-decoration: none;">XEM--}}
+{{--                                            CHI TIẾT</a>--}}
+{{--                                    </div>--}}
+{{--                                </div>--}}
+{{--                            </div>--}}
+{{--                        </div>--}}
+{{--                    </div>--}}
+{{--                @endforeach--}}
+{{--            </div>--}}
         </div>
 
         <div class="slick-carousel position-relative mt-2 product-pc-title">
@@ -216,7 +214,7 @@
                 <div
                     class="d-flex align-content-center justify-content-center img-course montserrat-bold btn-block pb-2"
                     style="font-size: 29px; color: #25AAE2; box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2);">
-                    <div class="" style=" border-bottom: 4px solid #25AAE2; padding-bottom: 1px;">ĐÈN DOWNLIGHT</div>
+                    <div class="" style=" border-bottom: 4px solid #25AAE2; padding-bottom: 1px;">FPT SMART HOME</div>
                 </div>
             </div>
             <div class="carousel-courses">
@@ -302,7 +300,7 @@
                 <div
                     class="d-flex align-content-center justify-content-center img-course montserrat-bold btn-block pb-2"
                     style="font-size: 29px; color: #25AAE2; box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2);">
-                    <div class="" style=" border-bottom: 4px solid #25AAE2; padding-bottom: 1px;">ĐÈN SPOTLIGHT</div>
+                    <div class="" style=" border-bottom: 4px solid #25AAE2; padding-bottom: 1px;">VIMAR</div>
                 </div>
             </div>
             <div class="carousel-courses-1">
@@ -384,7 +382,7 @@
                 <div
                     class="d-flex align-content-center justify-content-center img-course montserrat-bold btn-block pb-2"
                     style="font-size: 29px; color: #25AAE2; box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2);">
-                    <div class="" style=" border-bottom: 4px solid #25AAE2; padding-bottom: 1px;">ĐÈN RAY NAM CHÂM</div>
+                    <div class="" style=" border-bottom: 4px solid #25AAE2; padding-bottom: 1px;">SẢN PHẨM KHÁC</div>
                 </div>
             </div>
             <div class="carousel-courses-2">
@@ -455,90 +453,90 @@
             });
         </script>
 
-        <div class="slick-carousel position-relative ">
-            <button class="custom-prev-arrow-3 " aria-label="Previous">
-                <img src="{{asset('images/arrow/left.png')}}" alt="Previous" class=" button-shake"/>
-            </button>
-            <button class="custom-next-arrow-3 " aria-label="Next">
-                <img src="{{asset('images/arrow/right.png')}}" alt="Next" class=" button-shake"/>
-            </button>
-            <div class="row gx-0 img-course montserrat-bold mt-4 product-pc-title"
-                 style="font-size: 25px; color: #25AAE2; padding: 0 ">
-                <div
-                    class="d-flex align-content-center justify-content-center img-course montserrat-bold btn-block pb-2"
-                    style="font-size: 29px; color: #25AAE2; box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2);">
-                    <div class="" style=" border-bottom: 4px solid #25AAE2; padding-bottom: 1px;">CÔNG TẮC Ổ CẮM</div>
-                </div>
-            </div>
-            <div class="carousel-courses-3">
-                @foreach($courses3 as $course)
-                    <div class="d-flex justify-content-center">
-                        <div class="card rounded-custom shadow-effect"
-                             style="width:20rem; height: 70% ">
-                            <img class="card-img-top img-fluid object-cover " src="{{$course->image}}"
-                                 alt="Card image" style="height: 10rem">
-                            <div class="card-body" style="background-color: #25AAE2">
-                                <p class="card-text text-start mulish-black text-white" style="height: 3rem">
-                                    <strong>{{\Illuminate\Support\Str::limit($course->name,30)}}</strong></p>
-                                <p class="card-text text-start mulish-black text-white" style="font-size: 23px">
-                                    <strong>
-                                        @if ($course->price == 0)
-                                            Liên hệ
-                                        @else
-                                            {{ number_format($course->price, 0, ',', '.') }}
-                                        @endif
-                                    </strong></p>
-                                <div class="d-flex align-content-center justify-content-start ">
-                                    <a target="_blank"
-                                       href="{{route('homepage.product.show',['slug' => $course->slug])}}"
-                                       class=" btn-sm mb-3  btn-long button-shake montserrat"
-                                       style="color: #E9D5A2; text-decoration: none;">XEM
-                                        CHI TIẾT</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                @endforeach
-            </div>
-        </div>
+{{--        <div class="slick-carousel position-relative ">--}}
+{{--            <button class="custom-prev-arrow-3 " aria-label="Previous">--}}
+{{--                <img src="{{asset('images/arrow/left.png')}}" alt="Previous" class=" button-shake"/>--}}
+{{--            </button>--}}
+{{--            <button class="custom-next-arrow-3 " aria-label="Next">--}}
+{{--                <img src="{{asset('images/arrow/right.png')}}" alt="Next" class=" button-shake"/>--}}
+{{--            </button>--}}
+{{--            <div class="row gx-0 img-course montserrat-bold mt-4 product-pc-title"--}}
+{{--                 style="font-size: 25px; color: #25AAE2; padding: 0 ">--}}
+{{--                <div--}}
+{{--                    class="d-flex align-content-center justify-content-center img-course montserrat-bold btn-block pb-2"--}}
+{{--                    style="font-size: 29px; color: #25AAE2; box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2);">--}}
+{{--                    <div class="" style=" border-bottom: 4px solid #25AAE2; padding-bottom: 1px;">CÔNG TẮC Ổ CẮM</div>--}}
+{{--                </div>--}}
+{{--            </div>--}}
+{{--            <div class="carousel-courses-3">--}}
+{{--                @foreach($courses3 as $course)--}}
+{{--                    <div class="d-flex justify-content-center">--}}
+{{--                        <div class="card rounded-custom shadow-effect"--}}
+{{--                             style="width:20rem; height: 70% ">--}}
+{{--                            <img class="card-img-top img-fluid object-cover " src="{{$course->image}}"--}}
+{{--                                 alt="Card image" style="height: 10rem">--}}
+{{--                            <div class="card-body" style="background-color: #25AAE2">--}}
+{{--                                <p class="card-text text-start mulish-black text-white" style="height: 3rem">--}}
+{{--                                    <strong>{{\Illuminate\Support\Str::limit($course->name,30)}}</strong></p>--}}
+{{--                                <p class="card-text text-start mulish-black text-white" style="font-size: 23px">--}}
+{{--                                    <strong>--}}
+{{--                                        @if ($course->price == 0)--}}
+{{--                                            Liên hệ--}}
+{{--                                        @else--}}
+{{--                                            {{ number_format($course->price, 0, ',', '.') }}--}}
+{{--                                        @endif--}}
+{{--                                    </strong></p>--}}
+{{--                                <div class="d-flex align-content-center justify-content-start ">--}}
+{{--                                    <a target="_blank"--}}
+{{--                                       href="{{route('homepage.product.show',['slug' => $course->slug])}}"--}}
+{{--                                       class=" btn-sm mb-3  btn-long button-shake montserrat"--}}
+{{--                                       style="color: #E9D5A2; text-decoration: none;">XEM--}}
+{{--                                        CHI TIẾT</a>--}}
+{{--                                </div>--}}
+{{--                            </div>--}}
+{{--                        </div>--}}
+{{--                    </div>--}}
+{{--                @endforeach--}}
+{{--            </div>--}}
+{{--        </div>--}}
 
-        <script>
-            $(document).ready(function () {
-                $('.carousel-courses-3').slick({
-                    infinite: true,
-                    speed: 900,
-                    slidesToShow: 4,
-                    slidesToScroll: 1,
-                    dots: true,
-                    prevArrow: $('.custom-prev-arrow-3'),
-                    nextArrow: $('.custom-next-arrow-3'),
-                    responsive: [
-                        {
-                            breakpoint: 1324,
-                            settings: {
-                                slidesToShow: 3,
-                                slidesToScroll: 3,
-                            }
-                        },
-                        {
-                            breakpoint: 800,
-                            settings: {
-                                slidesToShow: 2,
-                                slidesToScroll: 2
-                            }
-                        },
-                        {
-                            breakpoint: 480,
-                            settings: {
-                                slidesToShow: 1,
-                                slidesToScroll: 1,
-                                variableWidth: false,
-                            }
-                        }
-                    ]
-                });
-            });
-        </script>
+{{--        <script>--}}
+{{--            $(document).ready(function () {--}}
+{{--                $('.carousel-courses-3').slick({--}}
+{{--                    infinite: true,--}}
+{{--                    speed: 900,--}}
+{{--                    slidesToShow: 4,--}}
+{{--                    slidesToScroll: 1,--}}
+{{--                    dots: true,--}}
+{{--                    prevArrow: $('.custom-prev-arrow-3'),--}}
+{{--                    nextArrow: $('.custom-next-arrow-3'),--}}
+{{--                    responsive: [--}}
+{{--                        {--}}
+{{--                            breakpoint: 1324,--}}
+{{--                            settings: {--}}
+{{--                                slidesToShow: 3,--}}
+{{--                                slidesToScroll: 3,--}}
+{{--                            }--}}
+{{--                        },--}}
+{{--                        {--}}
+{{--                            breakpoint: 800,--}}
+{{--                            settings: {--}}
+{{--                                slidesToShow: 2,--}}
+{{--                                slidesToScroll: 2--}}
+{{--                            }--}}
+{{--                        },--}}
+{{--                        {--}}
+{{--                            breakpoint: 480,--}}
+{{--                            settings: {--}}
+{{--                                slidesToShow: 1,--}}
+{{--                                slidesToScroll: 1,--}}
+{{--                                variableWidth: false,--}}
+{{--                            }--}}
+{{--                        }--}}
+{{--                    ]--}}
+{{--                });--}}
+{{--            });--}}
+{{--        </script>--}}
 
 
 
@@ -560,9 +558,10 @@
             <div class="carousel-courses-4" style="padding: 0 4vh">
                 <div class=" d-flex justify-content-center" style="height: 45vh; ">
                     <div class="w-100 d-flex justify-content-center pt-3" style="background-color: #F5F5F5">
-                        <a target="_blank" href="{{asset('pdf/i7smart0711.pdf')}}" style="text-decoration: unset">
+                        <a target="_blank" href="{{asset('pdf/i7smart0711.pdf')}}" style="text-decoration: unset"
+                           class="">
                             <img src="{{asset('pdf/simoni7.png')}}" alt="" class="img-fluid"
-                                 style="object-fit: cover; height: 80%">
+                                 style="object-fit: cover; height: 80%; margin: auto">
                             <div class=" montserrat-bold  pb-2 pt-4"
                                  style="font-size: 22px; color: #25AAE2;">
                                 <div class="text-center" style=" border-bottom: 4px solid #25AAE2; padding-bottom: 1px;">Cartalouge i7 Smart</div>
@@ -575,7 +574,7 @@
                     <div class="w-100 d-flex justify-content-center pt-3" style="background-color: #F5F5F5">
                         <a target="_blank" href="{{asset('pdf/CatalogueSimonProject2024.pdf')}}" style="text-decoration: unset">
                             <img src="{{asset('pdf/switch.png')}}" alt="" class="img-fluid"
-                                 style="object-fit: cover; height: 80%">
+                                 style="object-fit: cover; height: 80%; margin: auto ">
                             <div class=" montserrat-bold  pb-2 pt-4"
                                  style="font-size: 20px; color: #25AAE2;">
                                 <div class="text-center" style=" border-bottom: 4px solid #25AAE2; padding-bottom: 1px;">SWITCHES & SOCKETS</div>
@@ -586,9 +585,9 @@
 
                 <div class="d-flex justify-content-center" style="height: 45vh; ">
                     <div class="w-100 d-flex justify-content-center pt-3" style="background-color: #F5F5F5">
-                        <a target="_blank" href="{{asset('pdf/Catalogue-Lumi.pdf')}}" style="text-decoration: unset">
+                        <a target="_blank" href="{{asset('pdf/Catalogue_FSH_V4.pdf')}}" style="text-decoration: unset">
                             <img src="{{asset('pdf/lumi.png')}}" alt="" class="img-fluid"
-                                 style="object-fit: cover; height: 80%;">
+                                 style="object-fit: cover; height: 80%; margin: auto; scale: 80%";>
                             <div class=" montserrat-bold  pb-2 pt-4"
                                  style="font-size: 20px; color: #25AAE2;">
                                 <div class="text-center" style=" border-bottom: 4px solid #25AAE2; padding-bottom: 1px;">Nhà thông minh Lumi</div>
@@ -601,7 +600,7 @@
                     <div class="w-100 d-flex justify-content-center pt-3" style="background-color: #F5F5F5">
                         <a target="_blank" href="{{asset('pdf/i7smart0711.pdf')}}" style="text-decoration: unset">
                             <img src="{{asset('pdf/simoni7.png')}}" alt="" class="img-fluid"
-                                 style="object-fit: cover; height: 80%">
+                                 style="object-fit: cover; height: 80%; margin: auto">
                             <div class=" montserrat-bold  pb-2 pt-4"
                                  style="font-size: 22px; color: #25AAE2;">
                                 <div class="text-center" style=" border-bottom: 4px solid #25AAE2; padding-bottom: 1px;">Cartalouge i7 Smart</div>
@@ -614,7 +613,7 @@
                     <div class="w-100 d-flex justify-content-center pt-3" style="background-color: #F5F5F5">
                         <a target="_blank" href="{{asset('pdf/CatalogueSimonProject2024.pdf')}}" style="text-decoration: unset">
                             <img src="{{asset('pdf/switch.png')}}" alt="" class="img-fluid"
-                                 style="object-fit: cover; height: 80%">
+                                 style="object-fit: cover; height: 80%; margin: auto">
                             <div class=" montserrat-bold  pb-2 pt-4"
                                  style="font-size: 20px; color: #25AAE2;">
                                 <div class="text-center" style=" border-bottom: 4px solid #25AAE2; padding-bottom: 1px;">SWITCHES & SOCKETS</div>
@@ -625,9 +624,9 @@
 
                 <div class="d-flex justify-content-center" style="height: 45vh; ">
                     <div class="w-100 d-flex justify-content-center pt-3" style="background-color: #F5F5F5">
-                        <a target="_blank" href="{{asset('pdf/Catalogue-Lumi.pdf')}}" style="text-decoration: unset">
+                        <a target="_blank" href="{{asset('pdf/Catalogue_FSH_V4.pdf')}}" style="text-decoration: unset">
                             <img src="{{asset('pdf/lumi.png')}}" alt="" class="img-fluid"
-                                 style="object-fit: cover; height: 80%;">
+                                 style="object-fit: cover; height: 80%; margin: auto">
                             <div class=" montserrat-bold  pb-2 pt-4"
                                  style="font-size: 22px; color: #25AAE2;">
                                 <div class="text-center" style=" border-bottom: 4px solid #25AAE2; padding-bottom: 1px;">Nhà thông minh Lumi</div>

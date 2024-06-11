@@ -73,7 +73,7 @@
         <hr class="my-line mt-5 mb-5">
 
         <div class="row mt-5">
-            <div class="col-md-5 col-xs-12"><img src="{{asset('images/footer/LOGO1.png')}}" alt="" class="img-fluid scrollToTop"></div>
+            <div class="col-md-5 col-xs-12"><img src="{{asset('images/header/LOGO1.png')}}" alt="" class="img-fluid " style="scale: 70%; transform: translateY(-10%)"></div>
             <div class="col-md-1"></div>
             <div class="col-md-6  col-xs-12">
                 <div class="montserrat-bold text-white d-none d-md-block mb-4 ms-3" style="font-size: 1.95vw; width: 90%">
@@ -81,13 +81,13 @@
                     <div>Thương mại Thành Nam</div>
                 </div>
                 <div class="montserrat text-white d-none d-md-block ms-3" style="font-size: 1.09vw; width: 90%; letter-spacing: 0.05rem">
-                    Địa chỉ: Số 15 Sunrise H The Manor Central Park
+                    Địa chỉ:  Số 1, 8th Ave, Sunrise H, The Manor Central Park
                 </div>
                 <div class="montserrat text-white d-none d-md-block ms-3" style="font-size: 1.09vw; width: 90%; letter-spacing: 0.05rem">
                     Nguyễn Xiển, Đại Kim, Hoàng Mai, Hà Nội
                 </div>
                 <div class="montserrat text-white d-none d-md-block ms-3" style="font-size: 1.09vw; width: 90%; letter-spacing: 0.05rem">
-                    Hotline: 0901739995 - 0931189996
+                    Hotline: 098 886 5315 – 091 344 2882
                 </div>
 
 {{--                mobile--}}
@@ -99,13 +99,13 @@
                     <strong>Địa chỉ:</strong>
                 </div>
                 <div class="montserrat text-white d-block d-md-none text-center" style="font-size: 15px; width: 100%; letter-spacing: 0.05rem">
-                   Số 15 Sunrise H The Manor Central Park, Nguyễn Xiển, Đại Kim, Hoàng Mai, Hà Nội
+                    Số 1, 8th Ave, Sunrise H The Manor Central Park, Nguyễn Xiển, Đại Kim, Hoàng Mai, Hà Nội
                 </div>
                 <div class="montserrat-bold text-white d-block d-md-none text-center" style="font-size: 15px; width: 100%; letter-spacing: 0.05rem">
                     <strong>Hotline:</strong>
                 </div>
                 <div class="montserrat text-white d-block d-md-none text-center" style="font-size: 15px; width: 100%; letter-spacing: 0.05rem">
-                    0901739995 - 0931189996
+                    098 886 5315 – 091 344 2882
                 </div>
 
             </div>

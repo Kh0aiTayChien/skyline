@@ -1,14 +1,14 @@
 <div class="section-1 d-flex justify-content-center align-items-center position-relative ">
     <div class="d-flex align-content-center justify-content-center position-absolute"style="z-index: 998; bottom: 33vh">
-        <div class="btn text-white montserrat d-none d-md-block text-center" style="font-size: 29px; text-align: justify">
-            <p> Skylight luôn tự hào là một trong những đơn vị đi đầu trong</p>
-            <p> lĩnh vực cung cấp giải pháp và thiết bị công nghệ Led chiếu sáng</p>
-            <p>thân thiện với môi trường được nhiều đối tác đánh giá cao.</p>
+        <div class="btn text-white montserrat d-none d-md-block text-center" style="font-size: 1.8vw; text-align: justify">
+            <p> ThanhNamSmarthome luôn tự hào là một trong những đơn vị đi đầu trong  lĩnh vực</p>
+            <p> cung cấp giải pháp nhà thông minh và thiết bị công nghệ Led chiếu sáng thân thiện </p>
+            <p>với môi trường được nhiều đối tác đánh giá cao...</p>
         </div>
         <div class="btn text-white montserrat d-block d-md-none px-5 " style="font-size: 16px; text-align: justify; margin-bottom: 25%">
-            <p> Skylight luôn tự hào là một trong những đơn vị đi đầu trong
-            lĩnh vực cung cấp giải pháp và thiết bị công nghệ Led chiếu sáng
-            thân thiện với môi trường được nhiều đối tác đánh giá cao.</p>
+            <p> ThanhNamSmarthome luôn tự hào là một trong những đơn vị đi đầu trong  lĩnh vực
+             cung cấp giải pháp nhà thông minh và thiết bị công nghệ Led chiếu sáng thân thiện
+            với môi trường được nhiều đối tác đánh giá cao..</p>
         </div>
     </div>
     <div class="d-flex align-content-center justify-content-center position-absolute"style="z-index: 998; bottom: 22vh">
