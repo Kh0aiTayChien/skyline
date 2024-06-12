@@ -590,7 +590,7 @@
                                  style="object-fit: cover; height: 80%; margin: auto; scale: 80%";>
                             <div class=" montserrat-bold  pb-2 pt-4"
                                  style="font-size: 20px; color: #25AAE2;">
-                                <div class="text-center" style=" border-bottom: 4px solid #25AAE2; padding-bottom: 1px;">Nhà thông minh Lumi</div>
+                                <div class="text-center" style=" border-bottom: 4px solid #25AAE2; padding-bottom: 1px;">Catalogue FSH V4</div>
                             </div>
                         </a>
                     </div>
@@ -629,7 +629,7 @@
                                  style="object-fit: cover; height: 80%; margin: auto">
                             <div class=" montserrat-bold  pb-2 pt-4"
                                  style="font-size: 22px; color: #25AAE2;">
-                                <div class="text-center" style=" border-bottom: 4px solid #25AAE2; padding-bottom: 1px;">Nhà thông minh Lumi</div>
+                                <div class="text-center" style=" border-bottom: 4px solid #25AAE2; padding-bottom: 1px;">Catalogue FSH V4</div>
                             </div>
                         </a>
                     </div>
