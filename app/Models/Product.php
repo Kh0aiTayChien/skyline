@@ -17,4 +17,8 @@ class Product extends Model
     {
         return $this->hasMany(ImageProduct::class)->onDelete('cascade');
     }
+    public function category()
+    {
+        return $this->belongsTo(Category::class);
+    }
 }

@@ -73,7 +73,7 @@
         <hr class="my-line mt-5 mb-5">
 
         <div class="row mt-5">
-            <div class="col-md-5 col-xs-12"><img src="{{asset('images/header/LOGO1.png')}}" alt="" class="img-fluid " style="scale: 70%; transform: translateY(-10%)"></div>
+            <div class="col-md-5 col-xs-12"><img src="{{asset('images/footer/LOGO2.png')}}" alt="" class="img-fluid " style="scale: 100%; "></div>
             <div class="col-md-1"></div>
             <div class="col-md-6  col-xs-12">
                 <div class="montserrat-bold text-white d-none d-md-block mb-4 ms-3" style="font-size: 1.95vw; width: 90%">
