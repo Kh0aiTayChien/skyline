@@ -119,27 +119,27 @@
            ];
         @endphp
 
-        <li class="nav-item">
-            <a class="nav-link" data-toggle="collapse" href="#articles" role="button" aria-expanded="false"
-               aria-controls="articles">
-                <i class="fas fa-newspaper"></i>
-                <span>Bài viết</span>
-            </a>
-            <div class="collapse" id="articles">
-                <ul class="nav flex-column">
-                    <li class="nav-item {{ Nav::isRoute('articles.create') }}">
-                        <a class="nav-link" href="{{ route('articles.create') }}">
-                            <span>Bài viết mới</span>
-                        </a>
-                    </li>
-                    <li class="nav-item {{  Nav::hasSegment('index',3) }}">
-                        <a class="nav-link" href="{{ route('articles.index',['conditionView' => 'index'])}}">
-                            <span>Danh sách bài viết</span>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-        </li>
+{{--        <li class="nav-item">--}}
+{{--            <a class="nav-link" data-toggle="collapse" href="#articles" role="button" aria-expanded="false"--}}
+{{--               aria-controls="articles">--}}
+{{--                <i class="fas fa-newspaper"></i>--}}
+{{--                <span>Bài viết</span>--}}
+{{--            </a>--}}
+{{--            <div class="collapse" id="articles">--}}
+{{--                <ul class="nav flex-column">--}}
+{{--                    <li class="nav-item {{ Nav::isRoute('articles.create') }}">--}}
+{{--                        <a class="nav-link" href="{{ route('articles.create') }}">--}}
+{{--                            <span>Bài viết mới</span>--}}
+{{--                        </a>--}}
+{{--                    </li>--}}
+{{--                    <li class="nav-item {{  Nav::hasSegment('index',3) }}">--}}
+{{--                        <a class="nav-link" href="{{ route('articles.index',['conditionView' => 'index'])}}">--}}
+{{--                            <span>Danh sách bài viết</span>--}}
+{{--                        </a>--}}
+{{--                    </li>--}}
+{{--                </ul>--}}
+{{--            </div>--}}
+{{--        </li>--}}
         <li class="nav-item">
             <a class="nav-link" data-toggle="collapse" href="#products" role="button" aria-expanded="false"
                aria-controls="products">
