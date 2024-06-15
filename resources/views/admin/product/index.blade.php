@@ -40,6 +40,7 @@
                             <select class="form-select form-control" id="search_type" name="search_type">
                                 <option value="name" {{ $searchType === 'name' ? 'selected' : '' }}>Tìm kiếm theo tên</option>
                                 <option value="price" {{ $searchType === 'price' ? 'selected' : '' }}>Tìm kiếm theo giá</option>
+                                <option value="category" {{ $searchType === 'category' ? 'selected' : '' }}>Tìm kiếm theo danh mục</option>
                             </select>
                         </div>
                     </div>
@@ -49,6 +50,7 @@
                             <option value="1" {{ $paginate == 1 ? 'selected' : '' }}>1 bài</option>
                             <option value="2" {{ $paginate == 2 ? 'selected' : '' }}>2 bài</option>
                             <option value="5" {{ $paginate == 5 ? 'selected' : '' }}>5 bài</option>
+                            <option value="all" {{ $paginate == 'all' ? 'selected' : '' }}>Tất cả bài</option>
                         </select>
                     </div>
 

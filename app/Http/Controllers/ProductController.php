@@ -6,6 +6,7 @@ use App\Models\ImageProduct;
 use App\Models\Category;
 use App\Models\Product;
 use Illuminate\Http\Request;
+use Illuminate\Validation\Rule;
 
 class ProductController extends Controller
 {
@@ -15,15 +16,24 @@ class ProductController extends Controller
         $searchType = $request->input('search_type');
         $keyword = $request->input('search');
         $paginate = $request->input('paginate');
-
+//        dd($paginate);
         $query = Product::query();
 
         if ($searchType == 'name') {
             $query->where('name', 'like', '%' . $keyword . '%');
         } elseif ($searchType == 'price') {
             $query->where('price', 'like', '%' . $keyword . '%');
+        } elseif ($searchType == 'category') {
+            $query->whereHas('category', function ($query) use ($keyword) {
+                $query->where('title', 'like', '%' . $keyword . '%');
+            });
+        }
+        if ($paginate == 'all') {
+            $paginate = Product::count();;
         }
         $products = $query->paginate($paginate);
+
+
         return view('admin/product/index',
             compact('products' , 'paginate', 'searchType'));
     }
@@ -42,12 +52,14 @@ class ProductController extends Controller
             'description' => 'required',
             'slug' => 'required|unique:products,slug',
             'category' => 'required',
+            'order' => 'nullable|unique:products,order',
         ], [
             'name.unique' => 'Sản phẩm đã tồn tại',
             'name.required' => 'Không được để trống',
             'slug.unique' => 'Link đã tồn tại',
             'slug.required' => 'Không được để trống',
-            'category.required' => 'Không được để trống'
+            'category.required' => 'Không được để trống',
+            'order.unique' => 'Số thứ tự đã bị trùng',
         ]);
         $product = new Product();
         $product->name = $validatedData['name'];
@@ -56,6 +68,7 @@ class ProductController extends Controller
         $product->description = $validatedData['description'];
         $product->slug = $validatedData['slug'];
         $product->category_id = $validatedData['category'];
+        $product->order = $validatedData['order'];
 
         if ($request->hasFile('image')) {
             $image = $request->file('image');
@@ -94,13 +107,18 @@ class ProductController extends Controller
             'description' => 'required',
             'slug' => 'required',
             'category' => 'required',
-            'category.required' => 'Không được để trống'
+            'category.required' => 'Không được để trống',
+            'order' => [
+                'nullable',
+                Rule::unique('products')->ignore($id),
+            ],
         ], [
             'name.unique' => 'Sản phẩm đã tồn tại',
             'price.required' => 'Không được để trống',
             'description.required' => 'Không được để trống',
             'slug.required' => 'Không được để trống',
-            'category.required' => 'Không được để trống'
+            'category.required' => 'Không được để trống',
+            'order.unique' => 'Số thứ tự đã bị trùng',
         ]);
         $product = Product::findOrFail($id);
         $product->name = $validatedData['name'];
@@ -109,6 +127,7 @@ class ProductController extends Controller
         $product->description = $validatedData['description'];
         $product->slug = $validatedData['slug'];
         $product->category_id = $validatedData['category'];
+        $product->order = $validatedData['order'];
 
         if ($request->hasFile('image')) {
             $image = $request->file('image');

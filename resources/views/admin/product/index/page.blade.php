@@ -6,6 +6,7 @@
             <th class="col-lg-1">Ảnh đại diện</th>
             <th class="col-lg-2">Miêu tả</th>
             <th class="col-lg-1">Giá</th>
+            <th class="col-lg-1">STT</th>
             <th class="col-lg-1">Ngày tạo</th>
             <th class="col-lg-1">Chủ đề</th>
             <th class="col-lg-1"></th>
@@ -20,6 +21,7 @@
                 </td>
                 <td class="col-lg-2">{{ Str::limit(strip_tags($product->description), 45) }}</td>
                 <td class="col-lg-1">{{ $product->price }}</td>
+                <td class="col-lg-1">{{ $product->order ?? 'Chưa có stt' }}</td>
                 <td class="col-lg-1">{{ $product->created_at }}</td>
                 <td class="col-lg-1">{{ $product->category->title ?? 'Không có chủ đề' }}</td>
                 <td class="col-lg-1">

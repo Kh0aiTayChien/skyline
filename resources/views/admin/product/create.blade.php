@@ -262,6 +262,14 @@
                                 </div>
                                 <div class="col-lg-4">
                                     <div class="form-group focused">
+                                        <label class="form-control-label" for="order">Số thứ tự<span
+                                                class="small text-danger">* Không thể bị trùng - Có thể để trống</span></label>
+                                        <input type="text" id="order" class="form-control" name="order"
+                                               placeholder="Số thứ tự">
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="form-group focused">
                                         <label class="form-control-label" for="title">Giá cả (Điền 0 sẽ trở thành "Liên hệ")<span
                                                 class="small text-danger">*</span></label>
                                         <input type="text" id="price" class="form-control" name="price"
@@ -324,7 +332,7 @@
                         <div class="pl-lg-4 mt-5">
                             <div class="row">
                                 <div class="col text-center">
-                                    <button id="uploadButton" type="submit" class="btn btn-primary">Save Changes
+                                    <button id="uploadButton" type="submit" class="btn btn-primary">Tạo ngay bài viết mới
                                     </button>
                                 </div>
                             </div>
