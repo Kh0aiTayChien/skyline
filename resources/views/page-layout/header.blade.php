@@ -87,7 +87,7 @@
         </svg>
     </div>
     <div class="header-content d-flex justify-content-center align-content-center ">
-        <img class = "header-logo" src="{{asset('images/header/LOGO.png')}}" alt="LOGO" style="scale: 78%">
+        <img class = "header-logo" src="{{asset('images/header/LOGO1.png')}}" alt="LOGO" style="scale: 78%">
     </div>
     <script>
         $(document).ready(function(){
