@@ -3,9 +3,9 @@
         <div class="title" style="">
             <div class="row">
                 <div class="col-md-8 col-xs-12">
-                    <div class="montserrat-bold text-white d-none d-md-block" style="font-size: 1.5vw; letter-spacing: 0.35rem; width: 90%">SKYLIGHT
+                    <div class="montserrat-bold text-white d-none d-md-block" style="font-size: 1.5vw; letter-spacing: 0.35rem; width: 90%">ThanhNamSmarthome
                     </div>
-                    <div class="montserrat-bold text-white d-flex  d-md-none" style="letter-spacing: 0.35rem; font-size: 15px">SKYLIGHT
+                    <div class="montserrat-bold text-white d-flex  d-md-none" style="letter-spacing: 0.35rem; font-size: 15px">ThanhNamSmarthome
                     </div>
                     <div class="icielbegum text-white mt-3 d-none d-md-block" style="font-size: 2.66vw; width: 90%">
                         ĐĂNG KÍ NHẬN TƯ VẤN
@@ -114,12 +114,12 @@
     </div>
     <div class="about bg-white text-dark montserrat-bold d-none d-md-block" style="font-size: 13px">
         <div class="content py-3" style="color: #25AAE2; height: 100%">
-            Bản quyền 2024 © SKYLIGHT. Đã đăng ký bản quyền.
+            Bản quyền 2024 © ThanhNamSmarthome. Đã đăng ký bản quyền.
         </div>
     </div>
     <div class=" text-dark montserrat-bold d-block d-md-none" style="font-size: 13px">
         <div class="content py-2 text-center" style="line-height: 1.25; background-color: white;  color: #25AAE2 ">
-            Bản quyền 2024 © SKYLIGHT.
+            Bản quyền 2024 © ThanhNamSmarthome.
             <br>
             Đã đăng ký bản quyền.
         </div>
