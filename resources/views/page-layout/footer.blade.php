@@ -5,7 +5,7 @@
                 <div class="col-md-8 col-xs-12">
                     <div class="montserrat-bold text-white d-none d-md-block" style="font-size: 1.5vw;; width: 90%">ThanhNamSmarthome
                     </div>
-                    <div class="montserrat-bold text-white d-flex  d-md-none" style="letter-spacing: 0.35rem; font-size: 15px">ThanhNamSmarthome
+                    <div class="montserrat-bold text-white d-flex  d-md-none" style="font-size: 15px">ThanhNamSmarthome
                     </div>
                     <div class="icielbegum text-white mt-3 d-none d-md-block" style="font-size: 2.66vw; width: 90%">
                         ĐĂNG KÍ NHẬN TƯ VẤN
