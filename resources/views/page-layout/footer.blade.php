@@ -3,7 +3,7 @@
         <div class="title" style="">
             <div class="row">
                 <div class="col-md-8 col-xs-12">
-                    <div class="montserrat-bold text-white d-none d-md-block" style="font-size: 1.5vw; letter-spacing: 0.35rem; width: 90%">ThanhNamSmarthome
+                    <div class="montserrat-bold text-white d-none d-md-block" style="font-size: 1.5vw;; width: 90%">ThanhNamSmarthome
                     </div>
                     <div class="montserrat-bold text-white d-flex  d-md-none" style="letter-spacing: 0.35rem; font-size: 15px">ThanhNamSmarthome
                     </div>
