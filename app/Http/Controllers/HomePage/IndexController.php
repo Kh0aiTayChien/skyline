@@ -57,4 +57,17 @@ class IndexController extends Controller
     {
         return view('pages/document/index');
     }
+    public function send(Request $request)
+    {
+        $viewData = [
+            'status' => 'register_send',
+        ];
+        $name = $request->name;
+        $phone = $request->phone;
+        $email = $request->email;
+        $detail = $request->detail;
+//        Mail::to('thanhnam8921@gmail.com')->send(new RegisterMailable($name, $phone, $email, $detail));
+        Mail::to('chien.hcckt@gmail.com')->send(new RegisterMailable($name, $phone, $email, $detail));
+        return response()->json($viewData);
+    }
 }

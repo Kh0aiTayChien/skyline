@@ -205,3 +205,35 @@
         }
     }
 </style>
+<script>
+    $('#registration-form').submit(function (e) {
+        e.preventDefault();
+        let name = $('#name').val();
+        let phone = $('#phone').val();
+        let email = $('#email').val();
+        let detail = $('#detail').val();
+        let csrfToken = $('meta[name="csrf-token"]').attr('content');
+        alert('Bạn đã gửi thông tin thành công');
+        // $('.svg-input-customer-mb').val('');
+        // $('.svg-input-bot-mb').val('');
+        $.ajax({
+            url: '/send-register', // Thay đổi đường dẫn tới phần xử lý dữ liệu
+            method: 'POST',
+            data: {
+                name: name,
+                phone: phone,
+                email: email,
+                detail: detail
+            },
+            headers: {
+                'X-CSRF-TOKEN': csrfToken
+            },
+            success: function (response) {
+
+            },
+            error: function (xhr, status, error) {
+                console.error(error);
+            }
+        });
+    });
+</script>

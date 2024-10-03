@@ -34,6 +34,6 @@ Route::prefix('admin')->middleware('auth')->group(function () {
         return view('admin/about');
     })->name('about');
 });
-
+Route::post("/send-register", [IndexController::class, 'send'])->name('homepage.register.send');
 
 
