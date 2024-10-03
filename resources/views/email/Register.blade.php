@@ -47,7 +47,7 @@
 </head>
 <body>
 <div class="container">
-    <h1>Thành Nam - Người nhận tư vấn</h1>
+    <h1>Thành Nam Smart Home - Người nhận tư vấn</h1>
     <h2>Thông tin :</h2>
     <ul>
         <li><strong>Tên:</strong> {{ $name }}</li>
