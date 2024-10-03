@@ -12,6 +12,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', [IndexController::class, 'index'])->name('homepage.index');
 Route::get('/tai-lieu', [IndexController::class, 'document'])->name('homepage.document');
 Route::get('/san-pham/{slug}', [ProductController::class, 'show'])->name('homepage.product.show');
+Route::post("/send-register", [IndexController::class, 'send'])->name('homepage.register.send');
 Auth::routes();
 Route::prefix('admin')->middleware('auth')->group(function () {
     Route::resource('images', 'ImageController');
@@ -34,6 +35,6 @@ Route::prefix('admin')->middleware('auth')->group(function () {
         return view('admin/about');
     })->name('about');
 });
-Route::post("/send-register", [IndexController::class, 'send'])->name('homepage.register.send');
+
 
 
