@@ -28,7 +28,8 @@
                             HỌ VÀ TÊN
                         </label>
                         <br>
-                        <input type="text" name="name" id="fullname" class="mt-3">
+                        <input type="text" name="name" id="name" class="mt-3">
+                        <input type="text" name="name" id="name" class="mt-3">
                     </div>
                     <div class="form-group contact-form mt-3">
                         <label for="contact_phone" class=" cabin-medium text-white" style="font-size: 13px">
@@ -52,19 +53,20 @@
                         <textarea type="text" name="detail" id="contact_content" class="text-area">                        </textarea>
                         <br>
                         <div class="mt-5 d-none d-md-block" style="width: 80%">
-                            <div class="btn btn-outline-info p-1 border-3 ms-3" style="border-color: white">
-                                <div class="btn montserrat-bold px-4" style="background-color: white; font-size: 15px; color: #25AAE2">
-                                    NHẬN THÔNG TIN TƯ VẤN</div>
-                            </div>
-                        </div>
-                        <div class="mt-5 d-block d-md-none" style="">
-                            <div class="">
-                                <div class="btn btn-outline-info p-1 border-3 ms-3" style="border-color: white">
-                                    <div class="btn montserrat-bold px-4" style="background-color: white; font-size: 15px; color: #25AAE2">
-                                        NHẬN THÔNG TIN TƯ VẤN</div>
+                            <button type="submit" class="btn btn-outline-info p-1 border-3 ms-3" style="border-color: white">
+                                <div class="montserrat-bold px-4" style="background-color: white; font-size: 15px; color: #25AAE2">
+                                    NHẬN THÔNG TIN TƯ VẤN
                                 </div>
-                            </div>
+                            </button>
                         </div>
+                        <div class="mt-5 d-block d-md-none">
+                            <button type="submit" class="btn btn-outline-info p-1 border-3 ms-3" style="border-color: white">
+                                <div class="montserrat-bold px-4" style="background-color: white; font-size: 15px; color: #25AAE2">
+                                    NHẬN THÔNG TIN TƯ VẤN
+                                </div>
+                            </button>
+                        </div>
+
                     </div>
                 </div>
             </div>
