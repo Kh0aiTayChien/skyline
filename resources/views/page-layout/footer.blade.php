@@ -29,7 +29,6 @@
                         </label>
                         <br>
                         <input type="text" name="name" id="name" class="mt-3">
-                        <input type="text" name="name" id="name" class="mt-3">
                     </div>
                     <div class="form-group contact-form mt-3">
                         <label for="contact_phone" class=" cabin-medium text-white" style="font-size: 13px">
@@ -213,7 +212,7 @@
         let name = $('#name').val();
         let phone = $('#phone').val();
         let email = $('#email').val();
-        let detail = $('#detail').val();
+        let detail = $('#contact_content').val();
         let csrfToken = $('meta[name="csrf-token"]').attr('content');
         alert('Bạn đã gửi thông tin thành công');
         // $('.svg-input-customer-mb').val('');
