@@ -30,12 +30,12 @@
     </div>
 
     <div class="position-absolute shake" style="right: 2%; margin-top: 72vh; ">
-        <a target="_blank" href="https://zalo.me/0931189996">
+        <a target="_blank" href="https://zalo.me/0966869620">
             <img src="{{asset('images/header/zalo.png')}}" alt="" style="">
         </a>
     </div>
     <div class="position-absolute shake" style="right: 2%; margin-top: 80vh; animation: shake 1s infinite;">
-        <a href="tel:0931 189 996">
+        <a href="tel:0966869620">
             <img src="{{asset('images/header/phone.png')}}" alt="" style="">
         </a>
     </div>
